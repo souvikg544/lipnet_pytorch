@@ -2,7 +2,7 @@ import torch
 import torch.optim as optim
 import torch.nn as nn
 from dataloader import lipnet_data
-from model import lipnet_model
+from lipnetmodel import lipnet_model
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader,SubsetRandomSampler
 import os
@@ -10,7 +10,7 @@ import os
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-batch_size=16
+batch_size=128
 
 
 # -------------------- Initializing Dataloader -------------------------
@@ -49,44 +49,54 @@ optimizer = optim.SGD(model.parameters(), lr=0.001)
 k=0
 
 
-save_epoch=10
+save_epoch=100
 
 # ----------------------------- Checkpoint paths and Evals --------------
-checkpoint_dir = 'checkpoints'
+checkpoint_dir = '/ssd_scratch/cvit/souvikg544/checkpoints_lipnet'
 if not os.path.exists(checkpoint_dir):
     os.mkdir(checkpoint_dir)
 
 
 checkpoint_model_path=os.path.join(checkpoint_dir, f'model_{save_epoch}.pth')
-best_eval_loss = float('inf')
+best_eval_loss = float(2)
 
 start_epoch=0
-end_epoch=20
+end_epoch=150
 
 print("----------------------------- Starting Training ------------------------")
 print(f"-----------------------------Device = {device} ------------------------")
 
 for epoch in range(start_epoch,end_epoch,1):
+    train_accuracy_sum=0
+    eval_accuracy_sum=0
     # Training phase
     model.train()
     k=0
     progress_bar = tqdm(enumerate(train_dataloader), total=len(train_dataloader), desc=f"Epoch {epoch+1}/100", leave=True)
     for batch_images, batch_align in train_dataloader:
+        progress_bar.set_description(f"Epoch {epoch}/100 - Progress: {k}/{len(train_dataloader)}")
         k+=1
         batch_images = batch_images.to(device)
         batch_align = batch_align.to(device)
 
         optimizer.zero_grad()
         predictions = model.forward(batch_images)
-        predictions_reshaped = predictions.view(-1, 52)
-        targets_reshaped = batch_align.view(-1).long()
+        predictions_reshaped = predictions.permute(0,2,1)
+        targets_reshaped = batch_align.long()
         loss = loss_function(predictions_reshaped, targets_reshaped)
         loss.backward()
         optimizer.step()
-        if(k%10==0):
-            print(".", end=".")
+        # if(k%10==0):
+        #     print(".", end=".")
 
-        progress_bar.set_description(f"Epoch {epoch+1}/100 - Progress: {k+1}/{len(train_dataloader)}")
+        predicted_labels = torch.argmax(predictions, dim=2)
+        correct_predictions = torch.sum(predicted_labels == batch_align)
+        total_predictions = predicted_labels.numel()  # Total number of elements in the tensor
+        accuracy = (correct_predictions.item() / total_predictions) * 100
+        train_accuracy_sum+=accuracy
+    
+    epoch_accuracy=train_accuracy_sum/len(train_dataloader)        
+   
 
     # Evaluation phase
     model.eval()
@@ -101,7 +111,14 @@ for epoch in range(start_epoch,end_epoch,1):
             eval_targets_reshaped = eval_align.view(-1).long()
             eval_batch_loss = loss_function(eval_predictions_reshaped, eval_targets_reshaped)
             eval_loss += eval_batch_loss.item()
-
+            
+            eval_predicted_labels = torch.argmax(eval_predictions, dim=2)            
+            eval_correct_predictions = torch.sum(eval_predicted_labels == eval_align)
+            eval_total_predictions = eval_predicted_labels.numel()  # Total number of elements in the tensor
+            eval_accuracy = (eval_correct_predictions.item() / eval_total_predictions) * 100
+            eval_accuracy_sum+=eval_accuracy
+            
+    epoch_eval_accuracy=eval_accuracy_sum/len(eval_dataloader)
     eval_loss /= len(eval_dataloader)
 
     if (epoch + 1) == save_epoch:
@@ -117,7 +134,7 @@ for epoch in range(start_epoch,end_epoch,1):
     # Save the best model based on evaluation loss
     if eval_loss < best_eval_loss:
         best_eval_loss = eval_loss
-        best_model_path = os.path.join(checkpoint_dir, f'best_model_{epoch+1}.pth')
+        best_model_path = os.path.join(checkpoint_dir, f'best_model.pth')
         torch.save({
             'epoch': epoch,
             'model_state_dict': model.state_dict(),
@@ -129,5 +146,5 @@ for epoch in range(start_epoch,end_epoch,1):
     # Print epoch, training loss, and evaluation loss
     # print(f"Epoch [{epoch+1}/100], Training Loss: {loss.item():.4f}, Eval Loss: {eval_loss:.4f}")
     # print(" ")
-    tqdm.write(f"Epoch [{epoch+1}/100], Training Loss: {loss.item():.4f}, Eval Loss: {eval_loss:.4f}")
+    tqdm.write(f"Epoch [{epoch+1}/100], Training Loss: {loss.item():.4f}, Training accuracy: {epoch_accuracy:.4f}, Eval Loss: {eval_loss:.4f}, Eval Accuracy: {epoch_eval_accuracy:.4f}")
     tqdm.write(" ")
