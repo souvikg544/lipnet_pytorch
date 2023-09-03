@@ -7,7 +7,7 @@ class lipnet_model(nn.Module):
     def __init__(self, num_classes):
         super(lipnet_model, self).__init__()
         
-        self.conv_blocks=nn.ModuleList([
+        self.conv_blocks=nn.ModuleList([            
             nn.Sequential(Conv3d(in_channels=3, out_channels=32, kernel_size=(3, 5, 5), stride=(5, 2, 2), padding=(1, 2, 2))),
             nn.Sequential(
                 Conv3d(in_channels=32, out_channels=64, kernel_size=(3, 5, 5), stride=(5, 2, 2), padding=(1, 2, 2)),
@@ -30,9 +30,10 @@ class lipnet_model(nn.Module):
                  nn.GRU(input_size=96 * 2 * 4, hidden_size=256, bidirectional=True, batch_first=True),
                  nn.GRU(input_size=512, hidden_size=256, bidirectional=True, batch_first=True)
         ])
-        self.fc1 = nn.Linear(512, num_classes)
-            
-
+        
+        self.fc1 = nn.Linear(512, 256)
+        self.fc2 = nn.Linear(256, num_classes)
+        self.dropout = nn.Dropout(0.20)    
         
         self.bi_gru1 = nn.GRU(input_size=96 * 2 * 4, hidden_size=256, bidirectional=True, batch_first=True)
         self.bi_gru2 = nn.GRU(input_size=512, hidden_size=256, bidirectional=True, batch_first=True)
@@ -52,5 +53,7 @@ class lipnet_model(nn.Module):
             x, _= f(x)
             
         x = self.fc1(x)
+        x=self.dropout(x)
+        x=self.fc2(x)
 
         return x

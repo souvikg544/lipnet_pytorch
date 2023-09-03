@@ -70,5 +70,3 @@ save_root="/ssd_scratch/cvit/souvikg544/gridcorpus/faces"
 
 mklipnet=preprocess(root_folder,save_root,detector)
 mklipnet.createdata()
-
-    

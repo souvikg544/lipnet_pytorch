@@ -7,6 +7,7 @@ import numpy as np
 import glob
 from torchtext.vocab import vocab
 from collections import Counter, OrderedDict
+import pickle
 
 class lipnet_data(Dataset):
     def __init__(self, root_folder):
@@ -17,27 +18,12 @@ class lipnet_data(Dataset):
         
         self.transform = transforms.Compose([transforms.Resize((100,100)),
                                              transforms.ToTensor()])
-        self.getwordlist()
+        file_name = 'vocab_dict.pkl'
 
-    def getwordlist(self):
-        label_files=glob.glob(os.path.join(self.root_folder_transcription,"**/*"), 
-                   recursive = False)
+        # Open the file in binary read mode
+        with open(file_name, 'rb') as file:
+            self.v1 = pickle.load(file)
 
-        self.words=[]
-        for f in label_files:
-            with open(f, 'r') as align_file:
-                for line in align_file:
-                    _,timestamp, label = line.strip().split()
-                    label=label.lower()
-                    if(label=="sil"):
-                        continue
-                    self.words.append(label)
-        self.counter = Counter(self.words)
-        sorted_by_freq_tuples = sorted(self.counter.items(), key=lambda x: x[1], reverse=False)
-        ordered_dict = OrderedDict(sorted_by_freq_tuples)
-        self.v1 = vocab(ordered_dict)
-        #print(len(self.v1))
-        #self.v1.set_default_index(-1)
                 
     def __len__(self):        
         return len(self.frames_folder)
