@@ -11,7 +11,7 @@ import pickle
 
 class lipnet_data(Dataset):
     def __init__(self, root_folder):
-        self.root_folder_faces =  os.path.join(root_folder,"faces")
+        self.root_folder_faces =  os.path.join(root_folder,"faces_trim")
         self.root_folder_transcription= os.path.join(root_folder,"transcription")
         self.frames_folder=glob.glob(os.path.join(self.root_folder_faces,"**/*"), 
                    recursive = False)

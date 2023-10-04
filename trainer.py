@@ -8,9 +8,30 @@ from torch.utils.data import Dataset, DataLoader,SubsetRandomSampler
 import os
 
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+def save_model(save_checkpoint_path,model1,optimizer1,loss1,epoch1):    
+    torch.save({
+            'epoch': epoch1,
+            'model_state_dict': model1.state_dict(),
+            'optimizer_state_dict': optimizer1.state_dict(),
+            'loss': loss1,
+        }, save_checkpoint_path)
+
+    print(f"Checkpoint saved at epoch {epoch1+1}")
+    print("")
+    
+
+
+device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 
 batch_size=256
+checkpoint_dir = '/ssd_scratch/cvit/souvikg544/checkpoints_lipnet/exp3_big'
+load_checkpoint_path = '/ssd_scratch/cvit/souvikg544/checkpoints_lipnet/exp5_big/model_90.pth'
+load_checkpoint=False
+
+start_epoch=0
+end_epoch=100
+save_epoch=list(range(start_epoch,end_epoch+1,end_epoch//10))
+
 
 
 # -------------------- Initializing Dataloader -------------------------
@@ -18,10 +39,11 @@ batch_size=256
 print("-------------------- Initializing Dataloader -------------------------")
 
 root_folder = '/ssd_scratch/cvit/souvikg544/gridcorpus/'
+#root_folder = '/home2/souvikg544/souvik/Lipnet/sample_gridcorpus'
 
 dataset = lipnet_data(root_folder)
 dataset_size=len(dataset)
-train_ratio = 0.9  # Split ratio for training data
+train_ratio = 0.8  # Split ratio for training data
 train_size = int(train_ratio * dataset_size)
 eval_size = dataset_size - train_size
 
@@ -34,8 +56,8 @@ train_sampler = SubsetRandomSampler(train_indices)
 eval_sampler = SubsetRandomSampler(eval_indices)
 
 # Create data loaders with the defined samplers
-train_dataloader = DataLoader(dataset, batch_size=batch_size, sampler=train_sampler)
-eval_dataloader = DataLoader(dataset, batch_size=batch_size, sampler=eval_sampler)
+train_dataloader = DataLoader(dataset, batch_size=batch_size, sampler=train_sampler, num_workers=2)
+eval_dataloader = DataLoader(dataset, batch_size=batch_size, sampler=eval_sampler, num_workers=2)
 
 # --------------------- Initializing Model -----------------------------
 
@@ -46,23 +68,39 @@ model = lipnet_model(num_classes).to(device)
 
 # -------------------------Loss Functions and Optimizers ---------------
 loss_function = nn.CrossEntropyLoss()
-optimizer = optim.SGD(model.parameters(), lr=0.001)
+optimizer = optim.Adam(model.parameters(), lr=0.0001,betas=(0.9, 0.999))
 k=0
 
 
-save_epoch=[60,120,180,240]
+
 
 # ----------------------------- Checkpoint paths and Evals --------------
-checkpoint_dir = '/ssd_scratch/cvit/souvikg544/checkpoints_lipnet/exp2'
+
 if not os.path.exists(checkpoint_dir):
     os.mkdir(checkpoint_dir)
 
 
 
-best_eval_loss = float(3)
+best_eval_loss = float(4)
+best_train_loss=float(4)
 
-start_epoch=0
-end_epoch=250
+if load_checkpoint == True:
+    checkpoint = torch.load(load_checkpoint_path)
+    print(f"------------------------------------ Loaded Model from - {load_checkpoint_path} ---------------------------------------")
+    # Get the saved model state dictionary, optimizer state dictionary, and other information
+    start_epoch = checkpoint['epoch']
+    end_epoch=start_epoch+100
+    save_epoch=list(range(start_epoch,end_epoch+1,end_epoch//10))
+    
+    model_state_dict = checkpoint['model_state_dict']
+    optimizer_state_dict = checkpoint['optimizer_state_dict']
+    best_train_loss = checkpoint['loss']
+    
+    # Load the model and optimizer states
+    model.load_state_dict(model_state_dict)
+    optimizer.load_state_dict(optimizer_state_dict)
+
+
 
 print("----------------------------- Starting Training ------------------------")
 print(f"-----------------------------Device = {device} ------------------------")
@@ -124,26 +162,20 @@ for epoch in range(start_epoch,end_epoch,1):
 
     if (epoch + 1) in save_epoch:
         checkpoint_model_path=os.path.join(checkpoint_dir, f'model_{epoch + 1}.pth')
-        torch.save({
-            'epoch': epoch,
-            'model_state_dict': model.state_dict(),
-            'optimizer_state_dict': optimizer.state_dict(),
-            'loss': loss,
-        }, checkpoint_model_path)
-
-        print(f"Checkpoint saved at epoch {epoch+1}")
+        save_model(checkpoint_model_path,model,optimizer,loss,epoch)
+       
 
     # Save the best model based on evaluation loss
     if eval_loss < best_eval_loss:
         best_eval_loss = eval_loss
-        best_model_path = os.path.join(checkpoint_dir, f'best_model.pth')
-        torch.save({
-            'epoch': epoch,
-            'model_state_dict': model.state_dict(),
-            'optimizer_state_dict': optimizer.state_dict(),
-            'loss': loss,
-        }, best_model_path)
-        print(f"Best model saved at epoch - {epoch+1}")
+        best_eval_model_path = os.path.join(checkpoint_dir, f'best_eval_model.pth')
+        save_model(best_eval_model_path,model,optimizer,loss,epoch)
+
+    if loss.item() < best_train_loss:
+        best_train_loss=loss.item()
+        best_train_model_path = os.path.join(checkpoint_dir, f'best_train_model.pth')
+        save_model(best_train_model_path,model,optimizer,loss,epoch)
+        
 
     tqdm.write(f"Epoch [{epoch+1}/{end_epoch}], Training Loss: {loss.item():.4f}, Training accuracy: {epoch_accuracy:.4f}, Eval Loss: {eval_loss:.4f}, Eval Accuracy: {epoch_eval_accuracy:.4f}")
     tqdm.write(" ")

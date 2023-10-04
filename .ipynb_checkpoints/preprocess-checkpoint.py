@@ -37,7 +37,7 @@ class preprocess:
             try:
                 self.process_frame(frame,i,savepath1)
             except Exception as e:
-                print(f"error in {savepath1} -- {e}")
+                print(f"error in {savepath1} ---{i} -- {e}")
                 continue
             
         cap.release()
@@ -49,22 +49,25 @@ class preprocess:
             s_path=os.path.join(self.root_folder,s)
             for videos in tqdm(os.listdir(s_path)):
                 faces_save_path=os.path.join(self.save_path,s,videos.split(".")[0])
+                if(os.path.exists(faces_save_path)):
+                    continue
                 os.makedirs(faces_save_path,exist_ok=True)
+                
                 self.process_video(os.path.join(s_path,videos),faces_save_path)
             print("------------------------------------------------------")
             print(f"--------------------Done for Speaker - {s} -- Saved in path -{faces_save_path}------------------- ")
             print("------------------------------------------------------")
 # ------------------------  Define the model--------------------
 
-model_path = 'detector.tflite'
+model_path = 'notebooks/detector.tflite'
 base_options = python.BaseOptions(model_asset_path=model_path)
 options = vision.FaceDetectorOptions(base_options=base_options,min_detection_confidence=0.5)
 detector = vision.FaceDetector.create_from_options(options)
 
 # ------------------------- Initialize paths ---------------------
 
-root_folder="/home2/souvikg544/gridcorpus/video"
-save_root="/ssd_scratch/cvit/souvikg544/gridcorpus/faces"
+root_folder="/ssd_scratch/cvit/souvikg544/gridcorpus/video"
+save_root="/ssd_scratch/cvit/souvikg544/gridcorpus/faces_trim"
 
 # ---------------------------- Call the functions ------------------
 

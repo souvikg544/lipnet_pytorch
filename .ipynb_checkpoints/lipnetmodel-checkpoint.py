@@ -7,22 +7,26 @@ class lipnet_model(nn.Module):
     def __init__(self, num_classes):
         super(lipnet_model, self).__init__()
         
-        self.conv_blocks=nn.ModuleList([
-            nn.Sequential(Conv3d(in_channels=3, out_channels=32, kernel_size=(3, 5, 5), stride=(5, 2, 2), padding=(1, 2, 2))),
+        self.conv_blocks=nn.ModuleList([            
+            nn.Sequential(Conv3d(in_channels=3, out_channels=32, kernel_size=(7, 5, 5), stride=(5, 2, 2), padding=(1, 2, 2))),
             nn.Sequential(
-                Conv3d(in_channels=32, out_channels=64, kernel_size=(3, 5, 5), stride=(5, 2, 2), padding=(1, 2, 2)),
-                Conv3d(in_channels=64, out_channels=64, kernel_size=(3, 5, 5), stride=(1, 1, 1), padding=(1, 2, 2),residual=True)
+                Conv3d(in_channels=32, out_channels=64, kernel_size=(7, 5, 5), stride=(5, 2, 2), padding=(1, 2, 2)),
+                Conv3d(in_channels=64, out_channels=64, kernel_size=(3, 5, 5), stride=(1, 1, 1), padding=(1, 2, 2),residual=True),
+                nn.Dropout(0.30)
             ),
             nn.Sequential(
                 Conv3d(in_channels=64, out_channels=96, kernel_size=(3, 3, 3), stride=(1, 2, 2), padding=(1, 1, 1)),
                 Conv3d(in_channels=96, out_channels=96, kernel_size=(3, 3, 3), stride=(1, 2, 2), padding=(1, 1, 1)),
-                Conv3d(in_channels=96, out_channels=96, kernel_size=(3, 3, 3), stride=(1, 1, 1), padding=(1, 1, 1),residual=True)
+                Conv3d(in_channels=96, out_channels=96, kernel_size=(3, 3, 3), stride=(1, 1, 1), padding=(1, 1, 1),residual=True),
+                nn.Dropout(0.30)
             ),
             nn.Sequential(
-                Conv3d(in_channels=96, out_channels=96, kernel_size=(3, 3, 3), stride=(1, 2, 2), padding=(1, 1, 1))
+                Conv3d(in_channels=96, out_channels=96, kernel_size=(3, 3, 3), stride=(1, 2, 2), padding=(1, 1, 1)),
+                nn.Dropout(0.30)
             ),
             nn.Sequential(
-                 Conv3dTranspose(in_channels=96,out_channels=96,kernel_size=(2, 1, 1),stride=(2, 1, 1),padding=(0, 0, 0))
+                 Conv3dTranspose(in_channels=96,out_channels=96,kernel_size=(2, 1, 1),stride=(2, 1, 1),padding=(0, 0, 0)),
+                 nn.Dropout(0.30)
              )
         ])
 
@@ -33,7 +37,7 @@ class lipnet_model(nn.Module):
         
         self.fc1 = nn.Linear(512, 256)
         self.fc2 = nn.Linear(256, num_classes)
-        self.dropout = nn.Dropout(0.20)    
+        self.dropout = nn.Dropout(0.30)    
         
         self.bi_gru1 = nn.GRU(input_size=96 * 2 * 4, hidden_size=256, bidirectional=True, batch_first=True)
         self.bi_gru2 = nn.GRU(input_size=512, hidden_size=256, bidirectional=True, batch_first=True)
@@ -44,9 +48,10 @@ class lipnet_model(nn.Module):
         for f in self.conv_blocks:
             x = f(x)
             
-        batch_size, num_channels,seq_len, height, width = x.size()
+        batch_size, num_channels, seq_len, height, width = x.size()
+        x = x.permute(0, 2, 1, 3, 4)
         #print(x.size())
-        x = x.view(batch_size, seq_len, num_channels * height * width)  
+        x = x.reshape(batch_size, seq_len, num_channels * height * width)  
         #print(x.size())
         
         for f in self.gru_blocks:
