@@ -14,21 +14,20 @@ import json
 import random
 import editdistance
 import glob
-import pickle
 
     
 class MyDataset(Dataset):
     letters = [' ', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-    def __init__(self, video_path, anno_path, vid_pad, txt_pad):
+    def __init__(self, video_path, anno_path, file_list, vid_pad, txt_pad, phase):
         self.anno_path = anno_path
         self.vid_pad = vid_pad
         self.txt_pad = txt_pad
-        #self.phase = phase
-        self.l_size=366
+        self.phase = phase
+        
         # with open(file_list, 'r') as f:
         #     self.videos = [os.path.join(video_path, line.strip()) for line in f.readlines()]
-        self.videos=glob.glob(os.path.join(video_path,"**/*"), 
+        self.videos=glob.glob(os.path.join("/home2/souvikg544/souvik/exp2_l2s/sample_gridcorpus/faces","**/*"), 
                    recursive = False)
             
         self.data = []
@@ -57,7 +56,7 @@ class MyDataset(Dataset):
         anno = self._padding(anno, self.txt_pad)
         
         return {
-            'vid': torch.FloatTensor(vid), 
+            'vid': torch.FloatTensor(vid.transpose(3, 0, 1, 2)), 
             'txt': torch.LongTensor(anno),
             'txt_len': anno_len,
             'vid_len': vid_len,
@@ -78,7 +77,7 @@ class MyDataset(Dataset):
         array = np.stack(array, axis=0).astype(np.float32)
         return array
 
-    def _load_land(self,video_frames):
+    def _load_land(self,p):
         frames=np.empty((0, self.l_size), dtype=float)
         for i in range(1,76,1):            
             res_path=os.path.join(video_frames,f"{i}_landmark.npy")
@@ -101,7 +100,6 @@ class MyDataset(Dataset):
             #         res1=np.append(res1,score)
             
             frames=np.vstack((frames,res1))
-        return frames
     
     def _load_anno(self, name):
         with open(name, 'r') as f:
