@@ -1,0 +1,908 @@
+==========================================
+SLURM_JOB_ID = 980802
+SLURM_NODELIST = gnode023
+SLURM_JOB_GPUS = 0
+==========================================
+-------------------- Initializing Dataloader -------------------------
+--------------------- Initializing Model -----------------------------
+------------------------------------ Loaded Model from - /ssd_scratch/cvit/souvikg544/checkpoints_landmarknet/exp3_big/model_12.pth ---------------------------------------
+----------------------------- Starting Training ------------------------
+-----------------------------Device = cuda:0 ------------------------
+Epoch 12/61:   0%|          | 0/23 [00:00<?, ?it/s]Epoch 12/61 - Progress: 0/23:   0%|          | 0/23 [03:45<?, ?it/s]Epoch 12/61 - Progress: 1/23:   0%|          | 0/23 [04:17<?, ?it/s]Epoch 12/61 - Progress: 2/23:   0%|          | 0/23 [04:31<?, ?it/s]Epoch 12/61 - Progress: 3/23:   0%|          | 0/23 [04:32<?, ?it/s]Epoch 12/61 - Progress: 4/23:   0%|          | 0/23 [08:07<?, ?it/s]Epoch 12/61 - Progress: 5/23:   0%|          | 0/23 [08:09<?, ?it/s]Epoch 12/61 - Progress: 6/23:   0%|          | 0/23 [08:09<?, ?it/s]Epoch 12/61 - Progress: 7/23:   0%|          | 0/23 [08:09<?, ?it/s]Epoch 12/61 - Progress: 8/23:   0%|          | 0/23 [10:38<?, ?it/s]Epoch 12/61 - Progress: 9/23:   0%|          | 0/23 [10:40<?, ?it/s]Epoch 12/61 - Progress: 10/23:   0%|          | 0/23 [10:40<?, ?it/s]Epoch 12/61 - Progress: 11/23:   0%|          | 0/23 [10:40<?, ?it/s]Epoch 12/61 - Progress: 12/23:   0%|          | 0/23 [13:08<?, ?it/s]Epoch 12/61 - Progress: 13/23:   0%|          | 0/23 [13:12<?, ?it/s]Epoch 12/61 - Progress: 14/23:   0%|          | 0/23 [13:12<?, ?it/s]Epoch 12/61 - Progress: 15/23:   0%|          | 0/23 [13:12<?, ?it/s]Epoch 12/61 - Progress: 16/23:   0%|          | 0/23 [15:38<?, ?it/s]Epoch 12/61 - Progress: 17/23:   0%|          | 0/23 [15:42<?, ?it/s]Epoch 12/61 - Progress: 18/23:   0%|          | 0/23 [15:42<?, ?it/s]Epoch 12/61 - Progress: 19/23:   0%|          | 0/23 [15:43<?, ?it/s]Epoch 12/61 - Progress: 20/23:   0%|          | 0/23 [18:03<?, ?it/s]Epoch 12/61 - Progress: 21/23:   0%|          | 0/23 [18:08<?, ?it/s]Epoch 12/61 - Progress: 22/23:   0%|          | 0/23 [18:08<?, ?it/s]                                                                     Epoch 12/61 - Progress: 22/23:   0%|          | 0/23 [23:08<?, ?it/s]                                                                     Epoch 12/61 - Progress: 22/23:   0%|          | 0/23 [23:08<?, ?it/s]Checkpoint saved at epoch 12
+
+Checkpoint saved at epoch 12
+
+Epoch [12/61], Training Loss: 1.8401, Training accuracy: 20.2968, Eval Loss: 1.8594, Eval Accuracy: 19.4994
+ 
+
+Epoch 13/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 13/61 - Progress: 0/23:   0%|          | 0/23 [04:50<?, ?it/s][A
+Epoch 13/61 - Progress: 1/23:   0%|          | 0/23 [04:50<?, ?it/s][A
+Epoch 13/61 - Progress: 2/23:   0%|          | 0/23 [04:51<?, ?it/s][A
+Epoch 13/61 - Progress: 3/23:   0%|          | 0/23 [04:51<?, ?it/s][A
+Epoch 13/61 - Progress: 4/23:   0%|          | 0/23 [08:50<?, ?it/s][A
+Epoch 13/61 - Progress: 5/23:   0%|          | 0/23 [08:50<?, ?it/s][A
+Epoch 13/61 - Progress: 6/23:   0%|          | 0/23 [08:50<?, ?it/s][A
+Epoch 13/61 - Progress: 7/23:   0%|          | 0/23 [08:50<?, ?it/s][A
+Epoch 13/61 - Progress: 8/23:   0%|          | 0/23 [11:21<?, ?it/s][A
+Epoch 13/61 - Progress: 9/23:   0%|          | 0/23 [11:21<?, ?it/s][A
+Epoch 13/61 - Progress: 10/23:   0%|          | 0/23 [11:21<?, ?it/s][A
+Epoch 13/61 - Progress: 11/23:   0%|          | 0/23 [11:21<?, ?it/s][A
+Epoch 13/61 - Progress: 12/23:   0%|          | 0/23 [13:51<?, ?it/s][A
+Epoch 13/61 - Progress: 13/23:   0%|          | 0/23 [13:51<?, ?it/s][A
+Epoch 13/61 - Progress: 14/23:   0%|          | 0/23 [13:51<?, ?it/s][A
+Epoch 13/61 - Progress: 15/23:   0%|          | 0/23 [13:52<?, ?it/s][A
+Epoch 13/61 - Progress: 16/23:   0%|          | 0/23 [16:18<?, ?it/s][A
+Epoch 13/61 - Progress: 17/23:   0%|          | 0/23 [16:18<?, ?it/s][A
+Epoch 13/61 - Progress: 18/23:   0%|          | 0/23 [16:19<?, ?it/s][A
+Epoch 13/61 - Progress: 19/23:   0%|          | 0/23 [16:19<?, ?it/s][A
+Epoch 13/61 - Progress: 20/23:   0%|          | 0/23 [18:39<?, ?it/s][A
+Epoch 13/61 - Progress: 21/23:   0%|          | 0/23 [18:39<?, ?it/s][A
+Epoch 13/61 - Progress: 22/23:   0%|          | 0/23 [18:40<?, ?it/s][A
+                                                                     [A
+Epoch 13/61 - Progress: 22/23:   0%|          | 0/23 [23:35<?, ?it/s][A
+                                                                     [A
+Epoch 13/61 - Progress: 22/23:   0%|          | 0/23 [23:35<?, ?it/s][ACheckpoint saved at epoch 13
+
+Checkpoint saved at epoch 13
+
+Epoch [13/61], Training Loss: 1.8183, Training accuracy: 21.9830, Eval Loss: 1.8383, Eval Accuracy: 21.0144
+ 
+Epoch 14/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 14/61 - Progress: 0/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 14/61 - Progress: 1/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 14/61 - Progress: 2/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 14/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 14/61 - Progress: 4/23:   0%|          | 0/23 [07:30<?, ?it/s]Epoch 14/61 - Progress: 5/23:   0%|          | 0/23 [07:30<?, ?it/s]Epoch 14/61 - Progress: 6/23:   0%|          | 0/23 [07:30<?, ?it/s]Epoch 14/61 - Progress: 7/23:   0%|          | 0/23 [08:30<?, ?it/s]Epoch 14/61 - Progress: 8/23:   0%|          | 0/23 [10:01<?, ?it/s]Epoch 14/61 - Progress: 9/23:   0%|          | 0/23 [10:01<?, ?it/s]Epoch 14/61 - Progress: 10/23:   0%|          | 0/23 [10:02<?, ?it/s]Epoch 14/61 - Progress: 11/23:   0%|          | 0/23 [11:00<?, ?it/s]Epoch 14/61 - Progress: 12/23:   0%|          | 0/23 [12:31<?, ?it/s]Epoch 14/61 - Progress: 13/23:   0%|          | 0/23 [12:31<?, ?it/s]Epoch 14/61 - Progress: 14/23:   0%|          | 0/23 [12:31<?, ?it/s]Epoch 14/61 - Progress: 15/23:   0%|          | 0/23 [13:30<?, ?it/s]Epoch 14/61 - Progress: 16/23:   0%|          | 0/23 [15:02<?, ?it/s]Epoch 14/61 - Progress: 17/23:   0%|          | 0/23 [15:02<?, ?it/s]Epoch 14/61 - Progress: 18/23:   0%|          | 0/23 [15:02<?, ?it/s]Epoch 14/61 - Progress: 19/23:   0%|          | 0/23 [15:59<?, ?it/s]Epoch 14/61 - Progress: 20/23:   0%|          | 0/23 [17:29<?, ?it/s]Epoch 14/61 - Progress: 21/23:   0%|          | 0/23 [17:30<?, ?it/s]Epoch 14/61 - Progress: 22/23:   0%|          | 0/23 [17:30<?, ?it/s]                                                                     Epoch 14/61 - Progress: 22/23:   0%|          | 0/23 [22:21<?, ?it/s]                                                                     Epoch 14/61 - Progress: 22/23:   0%|          | 0/23 [22:21<?, ?it/s]Checkpoint saved at epoch 14
+
+Epoch [14/61], Training Loss: 1.7960, Training accuracy: 23.5031, Eval Loss: 1.8491, Eval Accuracy: 20.9716
+ 
+
+Epoch 15/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 15/61 - Progress: 0/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 15/61 - Progress: 1/23:   0%|          | 0/23 [04:46<?, ?it/s][A
+Epoch 15/61 - Progress: 2/23:   0%|          | 0/23 [04:46<?, ?it/s][A
+Epoch 15/61 - Progress: 3/23:   0%|          | 0/23 [04:46<?, ?it/s][A
+Epoch 15/61 - Progress: 4/23:   0%|          | 0/23 [08:34<?, ?it/s][A
+Epoch 15/61 - Progress: 5/23:   0%|          | 0/23 [08:34<?, ?it/s][A
+Epoch 15/61 - Progress: 6/23:   0%|          | 0/23 [08:34<?, ?it/s][A
+Epoch 15/61 - Progress: 7/23:   0%|          | 0/23 [08:34<?, ?it/s][A
+Epoch 15/61 - Progress: 8/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 15/61 - Progress: 9/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 15/61 - Progress: 10/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 15/61 - Progress: 11/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 15/61 - Progress: 12/23:   0%|          | 0/23 [13:33<?, ?it/s][A
+Epoch 15/61 - Progress: 13/23:   0%|          | 0/23 [13:34<?, ?it/s][A
+Epoch 15/61 - Progress: 14/23:   0%|          | 0/23 [13:34<?, ?it/s][A
+Epoch 15/61 - Progress: 15/23:   0%|          | 0/23 [13:34<?, ?it/s][A
+Epoch 15/61 - Progress: 16/23:   0%|          | 0/23 [16:01<?, ?it/s][A
+Epoch 15/61 - Progress: 17/23:   0%|          | 0/23 [16:01<?, ?it/s][A
+Epoch 15/61 - Progress: 18/23:   0%|          | 0/23 [16:01<?, ?it/s][A
+Epoch 15/61 - Progress: 19/23:   0%|          | 0/23 [16:01<?, ?it/s][A
+Epoch 15/61 - Progress: 20/23:   0%|          | 0/23 [18:21<?, ?it/s][A
+Epoch 15/61 - Progress: 21/23:   0%|          | 0/23 [18:21<?, ?it/s][A
+Epoch 15/61 - Progress: 22/23:   0%|          | 0/23 [18:21<?, ?it/s][A
+                                                                     [A
+Epoch 15/61 - Progress: 22/23:   0%|          | 0/23 [23:15<?, ?it/s][A
+                                                                     [A
+Epoch 15/61 - Progress: 22/23:   0%|          | 0/23 [23:15<?, ?it/s][ACheckpoint saved at epoch 15
+
+Epoch [15/61], Training Loss: 1.7911, Training accuracy: 24.6378, Eval Loss: 1.8616, Eval Accuracy: 22.7813
+ 
+Epoch 16/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 16/61 - Progress: 0/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 16/61 - Progress: 1/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 16/61 - Progress: 2/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 16/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 16/61 - Progress: 4/23:   0%|          | 0/23 [07:33<?, ?it/s]Epoch 16/61 - Progress: 5/23:   0%|          | 0/23 [07:33<?, ?it/s]Epoch 16/61 - Progress: 6/23:   0%|          | 0/23 [08:31<?, ?it/s]Epoch 16/61 - Progress: 7/23:   0%|          | 0/23 [08:31<?, ?it/s]Epoch 16/61 - Progress: 8/23:   0%|          | 0/23 [10:06<?, ?it/s]Epoch 16/61 - Progress: 9/23:   0%|          | 0/23 [10:06<?, ?it/s]Epoch 16/61 - Progress: 10/23:   0%|          | 0/23 [10:59<?, ?it/s]Epoch 16/61 - Progress: 11/23:   0%|          | 0/23 [10:59<?, ?it/s]Epoch 16/61 - Progress: 12/23:   0%|          | 0/23 [12:40<?, ?it/s]Epoch 16/61 - Progress: 13/23:   0%|          | 0/23 [12:40<?, ?it/s]Epoch 16/61 - Progress: 14/23:   0%|          | 0/23 [13:27<?, ?it/s]Epoch 16/61 - Progress: 15/23:   0%|          | 0/23 [13:27<?, ?it/s]Epoch 16/61 - Progress: 16/23:   0%|          | 0/23 [15:10<?, ?it/s]Epoch 16/61 - Progress: 17/23:   0%|          | 0/23 [15:10<?, ?it/s]Epoch 16/61 - Progress: 18/23:   0%|          | 0/23 [15:55<?, ?it/s]Epoch 16/61 - Progress: 19/23:   0%|          | 0/23 [15:55<?, ?it/s]Epoch 16/61 - Progress: 20/23:   0%|          | 0/23 [17:37<?, ?it/s]Epoch 16/61 - Progress: 21/23:   0%|          | 0/23 [17:37<?, ?it/s]Epoch 16/61 - Progress: 22/23:   0%|          | 0/23 [18:08<?, ?it/s]                                                                     Epoch 16/61 - Progress: 22/23:   0%|          | 0/23 [23:01<?, ?it/s]                                                                     Epoch 16/61 - Progress: 22/23:   0%|          | 0/23 [23:01<?, ?it/s]Checkpoint saved at epoch 16
+
+Epoch [16/61], Training Loss: 1.7694, Training accuracy: 25.4231, Eval Loss: 1.9410, Eval Accuracy: 19.8807
+ 
+
+Epoch 17/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 17/61 - Progress: 0/23:   0%|          | 0/23 [02:35<?, ?it/s][A
+Epoch 17/61 - Progress: 1/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 17/61 - Progress: 2/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 17/61 - Progress: 3/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 17/61 - Progress: 4/23:   0%|          | 0/23 [05:08<?, ?it/s][A
+Epoch 17/61 - Progress: 5/23:   0%|          | 0/23 [08:59<?, ?it/s][A
+Epoch 17/61 - Progress: 6/23:   0%|          | 0/23 [08:59<?, ?it/s][A
+Epoch 17/61 - Progress: 7/23:   0%|          | 0/23 [08:59<?, ?it/s][A
+Epoch 17/61 - Progress: 8/23:   0%|          | 0/23 [08:59<?, ?it/s][A
+Epoch 17/61 - Progress: 9/23:   0%|          | 0/23 [11:28<?, ?it/s][A
+Epoch 17/61 - Progress: 10/23:   0%|          | 0/23 [11:28<?, ?it/s][A
+Epoch 17/61 - Progress: 11/23:   0%|          | 0/23 [11:28<?, ?it/s][A
+Epoch 17/61 - Progress: 12/23:   0%|          | 0/23 [11:28<?, ?it/s][A
+Epoch 17/61 - Progress: 13/23:   0%|          | 0/23 [13:57<?, ?it/s][A
+Epoch 17/61 - Progress: 14/23:   0%|          | 0/23 [13:57<?, ?it/s][A
+Epoch 17/61 - Progress: 15/23:   0%|          | 0/23 [13:57<?, ?it/s][A
+Epoch 17/61 - Progress: 16/23:   0%|          | 0/23 [13:57<?, ?it/s][A
+Epoch 17/61 - Progress: 17/23:   0%|          | 0/23 [16:22<?, ?it/s][A
+Epoch 17/61 - Progress: 18/23:   0%|          | 0/23 [16:22<?, ?it/s][A
+Epoch 17/61 - Progress: 19/23:   0%|          | 0/23 [16:22<?, ?it/s][A
+Epoch 17/61 - Progress: 20/23:   0%|          | 0/23 [16:22<?, ?it/s][A
+Epoch 17/61 - Progress: 21/23:   0%|          | 0/23 [18:41<?, ?it/s][A
+Epoch 17/61 - Progress: 22/23:   0%|          | 0/23 [18:41<?, ?it/s][A
+                                                                     [A
+Epoch 17/61 - Progress: 22/23:   0%|          | 0/23 [23:33<?, ?it/s][A
+                                                                     [A
+Epoch 17/61 - Progress: 22/23:   0%|          | 0/23 [23:33<?, ?it/s][ACheckpoint saved at epoch 17
+
+Epoch [17/61], Training Loss: 1.7697, Training accuracy: 26.0508, Eval Loss: 1.8422, Eval Accuracy: 23.7794
+ 
+Epoch 18/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 18/61 - Progress: 0/23:   0%|          | 0/23 [04:41<?, ?it/s]Epoch 18/61 - Progress: 1/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 18/61 - Progress: 2/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 18/61 - Progress: 3/23:   0%|          | 0/23 [04:43<?, ?it/s]Epoch 18/61 - Progress: 4/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 18/61 - Progress: 5/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 18/61 - Progress: 6/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 18/61 - Progress: 7/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 18/61 - Progress: 8/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 18/61 - Progress: 9/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 18/61 - Progress: 10/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 18/61 - Progress: 11/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 18/61 - Progress: 12/23:   0%|          | 0/23 [13:53<?, ?it/s]Epoch 18/61 - Progress: 13/23:   0%|          | 0/23 [13:53<?, ?it/s]Epoch 18/61 - Progress: 14/23:   0%|          | 0/23 [13:53<?, ?it/s]Epoch 18/61 - Progress: 15/23:   0%|          | 0/23 [13:53<?, ?it/s]Epoch 18/61 - Progress: 16/23:   0%|          | 0/23 [16:18<?, ?it/s]Epoch 18/61 - Progress: 17/23:   0%|          | 0/23 [16:18<?, ?it/s]Epoch 18/61 - Progress: 18/23:   0%|          | 0/23 [16:18<?, ?it/s]Epoch 18/61 - Progress: 19/23:   0%|          | 0/23 [16:18<?, ?it/s]Epoch 18/61 - Progress: 20/23:   0%|          | 0/23 [18:36<?, ?it/s]Epoch 18/61 - Progress: 21/23:   0%|          | 0/23 [18:36<?, ?it/s]Epoch 18/61 - Progress: 22/23:   0%|          | 0/23 [18:36<?, ?it/s]                                                                     Epoch 18/61 - Progress: 22/23:   0%|          | 0/23 [23:30<?, ?it/s]                                                                     Epoch 18/61 - Progress: 22/23:   0%|          | 0/23 [23:30<?, ?it/s]Checkpoint saved at epoch 18
+
+Epoch [18/61], Training Loss: 1.7508, Training accuracy: 26.4853, Eval Loss: 1.9405, Eval Accuracy: 20.4668
+ 
+
+Epoch 19/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 19/61 - Progress: 0/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 19/61 - Progress: 1/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 19/61 - Progress: 2/23:   0%|          | 0/23 [04:49<?, ?it/s][A
+Epoch 19/61 - Progress: 3/23:   0%|          | 0/23 [04:49<?, ?it/s][A
+Epoch 19/61 - Progress: 4/23:   0%|          | 0/23 [07:31<?, ?it/s][A
+Epoch 19/61 - Progress: 5/23:   0%|          | 0/23 [08:33<?, ?it/s][A
+Epoch 19/61 - Progress: 6/23:   0%|          | 0/23 [08:33<?, ?it/s][A
+Epoch 19/61 - Progress: 7/23:   0%|          | 0/23 [08:33<?, ?it/s][A
+Epoch 19/61 - Progress: 8/23:   0%|          | 0/23 [10:01<?, ?it/s][A
+Epoch 19/61 - Progress: 9/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 19/61 - Progress: 10/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 19/61 - Progress: 11/23:   0%|          | 0/23 [11:04<?, ?it/s][A
+Epoch 19/61 - Progress: 12/23:   0%|          | 0/23 [12:31<?, ?it/s][A
+Epoch 19/61 - Progress: 13/23:   0%|          | 0/23 [13:34<?, ?it/s][A
+Epoch 19/61 - Progress: 14/23:   0%|          | 0/23 [13:35<?, ?it/s][A
+Epoch 19/61 - Progress: 15/23:   0%|          | 0/23 [13:35<?, ?it/s][A
+Epoch 19/61 - Progress: 16/23:   0%|          | 0/23 [15:01<?, ?it/s][A
+Epoch 19/61 - Progress: 17/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 19/61 - Progress: 18/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 19/61 - Progress: 19/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 19/61 - Progress: 20/23:   0%|          | 0/23 [17:29<?, ?it/s][A
+Epoch 19/61 - Progress: 21/23:   0%|          | 0/23 [18:28<?, ?it/s][A
+Epoch 19/61 - Progress: 22/23:   0%|          | 0/23 [18:28<?, ?it/s][A
+                                                                     [A
+Epoch 19/61 - Progress: 22/23:   0%|          | 0/23 [23:23<?, ?it/s][A
+                                                                     [A
+Epoch 19/61 - Progress: 22/23:   0%|          | 0/23 [23:23<?, ?it/s][ACheckpoint saved at epoch 19
+
+Epoch [19/61], Training Loss: 1.7347, Training accuracy: 26.9650, Eval Loss: 1.8898, Eval Accuracy: 22.7314
+ 
+Epoch 20/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 20/61 - Progress: 0/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 20/61 - Progress: 1/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 20/61 - Progress: 2/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 20/61 - Progress: 3/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 20/61 - Progress: 4/23:   0%|          | 0/23 [07:27<?, ?it/s]Epoch 20/61 - Progress: 5/23:   0%|          | 0/23 [07:27<?, ?it/s]Epoch 20/61 - Progress: 6/23:   0%|          | 0/23 [08:54<?, ?it/s]Epoch 20/61 - Progress: 7/23:   0%|          | 0/23 [08:54<?, ?it/s]Epoch 20/61 - Progress: 8/23:   0%|          | 0/23 [09:58<?, ?it/s]Epoch 20/61 - Progress: 9/23:   0%|          | 0/23 [09:58<?, ?it/s]Epoch 20/61 - Progress: 10/23:   0%|          | 0/23 [11:22<?, ?it/s]Epoch 20/61 - Progress: 11/23:   0%|          | 0/23 [11:22<?, ?it/s]Epoch 20/61 - Progress: 12/23:   0%|          | 0/23 [12:28<?, ?it/s]Epoch 20/61 - Progress: 13/23:   0%|          | 0/23 [12:28<?, ?it/s]Epoch 20/61 - Progress: 14/23:   0%|          | 0/23 [13:51<?, ?it/s]Epoch 20/61 - Progress: 15/23:   0%|          | 0/23 [13:51<?, ?it/s]Epoch 20/61 - Progress: 16/23:   0%|          | 0/23 [14:57<?, ?it/s]Epoch 20/61 - Progress: 17/23:   0%|          | 0/23 [14:57<?, ?it/s]Epoch 20/61 - Progress: 18/23:   0%|          | 0/23 [16:17<?, ?it/s]Epoch 20/61 - Progress: 19/23:   0%|          | 0/23 [16:17<?, ?it/s]Epoch 20/61 - Progress: 20/23:   0%|          | 0/23 [17:20<?, ?it/s]Epoch 20/61 - Progress: 21/23:   0%|          | 0/23 [17:20<?, ?it/s]Epoch 20/61 - Progress: 22/23:   0%|          | 0/23 [18:26<?, ?it/s]                                                                     Epoch 20/61 - Progress: 22/23:   0%|          | 0/23 [23:16<?, ?it/s]                                                                     Epoch 20/61 - Progress: 22/23:   0%|          | 0/23 [23:16<?, ?it/s]Checkpoint saved at epoch 20
+
+Epoch [20/61], Training Loss: 1.7457, Training accuracy: 27.3921, Eval Loss: 1.8295, Eval Accuracy: 23.9318
+ 
+
+Epoch 21/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 21/61 - Progress: 0/23:   0%|          | 0/23 [02:36<?, ?it/s][A
+Epoch 21/61 - Progress: 1/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 21/61 - Progress: 2/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 21/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 21/61 - Progress: 4/23:   0%|          | 0/23 [05:30<?, ?it/s][A
+Epoch 21/61 - Progress: 5/23:   0%|          | 0/23 [08:39<?, ?it/s][A
+Epoch 21/61 - Progress: 6/23:   0%|          | 0/23 [08:40<?, ?it/s][A
+Epoch 21/61 - Progress: 7/23:   0%|          | 0/23 [08:40<?, ?it/s][A
+Epoch 21/61 - Progress: 8/23:   0%|          | 0/23 [08:50<?, ?it/s][A
+Epoch 21/61 - Progress: 9/23:   0%|          | 0/23 [11:10<?, ?it/s][A
+Epoch 21/61 - Progress: 10/23:   0%|          | 0/23 [11:10<?, ?it/s][A
+Epoch 21/61 - Progress: 11/23:   0%|          | 0/23 [11:11<?, ?it/s][A
+Epoch 21/61 - Progress: 12/23:   0%|          | 0/23 [11:17<?, ?it/s][A
+Epoch 21/61 - Progress: 13/23:   0%|          | 0/23 [13:41<?, ?it/s][A
+Epoch 21/61 - Progress: 14/23:   0%|          | 0/23 [13:42<?, ?it/s][A
+Epoch 21/61 - Progress: 15/23:   0%|          | 0/23 [13:42<?, ?it/s][A
+Epoch 21/61 - Progress: 16/23:   0%|          | 0/23 [13:45<?, ?it/s][A
+Epoch 21/61 - Progress: 17/23:   0%|          | 0/23 [16:10<?, ?it/s][A
+Epoch 21/61 - Progress: 18/23:   0%|          | 0/23 [16:10<?, ?it/s][A
+Epoch 21/61 - Progress: 19/23:   0%|          | 0/23 [16:10<?, ?it/s][A
+Epoch 21/61 - Progress: 20/23:   0%|          | 0/23 [16:12<?, ?it/s][A
+Epoch 21/61 - Progress: 21/23:   0%|          | 0/23 [18:32<?, ?it/s][A
+Epoch 21/61 - Progress: 22/23:   0%|          | 0/23 [18:32<?, ?it/s][A
+                                                                     [A
+Epoch 21/61 - Progress: 22/23:   0%|          | 0/23 [23:21<?, ?it/s][A
+                                                                     [A
+Epoch 21/61 - Progress: 22/23:   0%|          | 0/23 [23:21<?, ?it/s][ACheckpoint saved at epoch 21
+
+Epoch [21/61], Training Loss: 1.7319, Training accuracy: 27.6269, Eval Loss: 1.9002, Eval Accuracy: 21.4899
+ 
+Epoch 22/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 22/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 22/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 22/61 - Progress: 2/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 22/61 - Progress: 3/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 22/61 - Progress: 4/23:   0%|          | 0/23 [07:18<?, ?it/s]Epoch 22/61 - Progress: 5/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 22/61 - Progress: 6/23:   0%|          | 0/23 [08:43<?, ?it/s]Epoch 22/61 - Progress: 7/23:   0%|          | 0/23 [08:43<?, ?it/s]Epoch 22/61 - Progress: 8/23:   0%|          | 0/23 [09:50<?, ?it/s]Epoch 22/61 - Progress: 9/23:   0%|          | 0/23 [11:06<?, ?it/s]Epoch 22/61 - Progress: 10/23:   0%|          | 0/23 [11:13<?, ?it/s]Epoch 22/61 - Progress: 11/23:   0%|          | 0/23 [11:13<?, ?it/s]Epoch 22/61 - Progress: 12/23:   0%|          | 0/23 [12:19<?, ?it/s]Epoch 22/61 - Progress: 13/23:   0%|          | 0/23 [13:36<?, ?it/s]Epoch 22/61 - Progress: 14/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 22/61 - Progress: 15/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 22/61 - Progress: 16/23:   0%|          | 0/23 [14:47<?, ?it/s]Epoch 22/61 - Progress: 17/23:   0%|          | 0/23 [16:02<?, ?it/s]Epoch 22/61 - Progress: 18/23:   0%|          | 0/23 [16:11<?, ?it/s]Epoch 22/61 - Progress: 19/23:   0%|          | 0/23 [16:11<?, ?it/s]Epoch 22/61 - Progress: 20/23:   0%|          | 0/23 [17:12<?, ?it/s]Epoch 22/61 - Progress: 21/23:   0%|          | 0/23 [18:25<?, ?it/s]Epoch 22/61 - Progress: 22/23:   0%|          | 0/23 [18:26<?, ?it/s]                                                                     Epoch 22/61 - Progress: 22/23:   0%|          | 0/23 [23:18<?, ?it/s]                                                                     Epoch 22/61 - Progress: 22/23:   0%|          | 0/23 [23:18<?, ?it/s]Checkpoint saved at epoch 22
+
+Epoch [22/61], Training Loss: 1.7214, Training accuracy: 28.0003, Eval Loss: 1.8340, Eval Accuracy: 24.0615
+ 
+
+Epoch 23/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 23/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 23/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 23/61 - Progress: 2/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 23/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 23/61 - Progress: 4/23:   0%|          | 0/23 [08:01<?, ?it/s][A
+Epoch 23/61 - Progress: 5/23:   0%|          | 0/23 [08:01<?, ?it/s][A
+Epoch 23/61 - Progress: 6/23:   0%|          | 0/23 [08:01<?, ?it/s][A
+Epoch 23/61 - Progress: 7/23:   0%|          | 0/23 [08:18<?, ?it/s][A
+Epoch 23/61 - Progress: 8/23:   0%|          | 0/23 [10:31<?, ?it/s][A
+Epoch 23/61 - Progress: 9/23:   0%|          | 0/23 [10:32<?, ?it/s][A
+Epoch 23/61 - Progress: 10/23:   0%|          | 0/23 [10:32<?, ?it/s][A
+Epoch 23/61 - Progress: 11/23:   0%|          | 0/23 [10:48<?, ?it/s][A
+Epoch 23/61 - Progress: 12/23:   0%|          | 0/23 [13:00<?, ?it/s][A
+Epoch 23/61 - Progress: 13/23:   0%|          | 0/23 [13:01<?, ?it/s][A
+Epoch 23/61 - Progress: 14/23:   0%|          | 0/23 [13:01<?, ?it/s][A
+Epoch 23/61 - Progress: 15/23:   0%|          | 0/23 [13:19<?, ?it/s][A
+Epoch 23/61 - Progress: 16/23:   0%|          | 0/23 [15:28<?, ?it/s][A
+Epoch 23/61 - Progress: 17/23:   0%|          | 0/23 [15:31<?, ?it/s][A
+Epoch 23/61 - Progress: 18/23:   0%|          | 0/23 [15:31<?, ?it/s][A
+Epoch 23/61 - Progress: 19/23:   0%|          | 0/23 [15:49<?, ?it/s][A
+Epoch 23/61 - Progress: 20/23:   0%|          | 0/23 [17:51<?, ?it/s][A
+Epoch 23/61 - Progress: 21/23:   0%|          | 0/23 [17:55<?, ?it/s][A
+Epoch 23/61 - Progress: 22/23:   0%|          | 0/23 [17:55<?, ?it/s][A
+                                                                     [A
+Epoch 23/61 - Progress: 22/23:   0%|          | 0/23 [22:48<?, ?it/s][A
+                                                                     [A
+Epoch 23/61 - Progress: 22/23:   0%|          | 0/23 [22:48<?, ?it/s][ACheckpoint saved at epoch 23
+
+Epoch [23/61], Training Loss: 1.7251, Training accuracy: 28.1144, Eval Loss: 2.1177, Eval Accuracy: 19.0433
+ 
+Epoch 24/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 24/61 - Progress: 0/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 24/61 - Progress: 1/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 24/61 - Progress: 2/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 24/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 24/61 - Progress: 4/23:   0%|          | 0/23 [08:27<?, ?it/s]Epoch 24/61 - Progress: 5/23:   0%|          | 0/23 [08:27<?, ?it/s]Epoch 24/61 - Progress: 6/23:   0%|          | 0/23 [08:42<?, ?it/s]Epoch 24/61 - Progress: 7/23:   0%|          | 0/23 [08:42<?, ?it/s]Epoch 24/61 - Progress: 8/23:   0%|          | 0/23 [10:57<?, ?it/s]Epoch 24/61 - Progress: 9/23:   0%|          | 0/23 [10:57<?, ?it/s]Epoch 24/61 - Progress: 10/23:   0%|          | 0/23 [11:12<?, ?it/s]Epoch 24/61 - Progress: 11/23:   0%|          | 0/23 [11:12<?, ?it/s]Epoch 24/61 - Progress: 12/23:   0%|          | 0/23 [13:27<?, ?it/s]Epoch 24/61 - Progress: 13/23:   0%|          | 0/23 [13:27<?, ?it/s]Epoch 24/61 - Progress: 14/23:   0%|          | 0/23 [13:42<?, ?it/s]Epoch 24/61 - Progress: 15/23:   0%|          | 0/23 [13:42<?, ?it/s]Epoch 24/61 - Progress: 16/23:   0%|          | 0/23 [15:54<?, ?it/s]Epoch 24/61 - Progress: 17/23:   0%|          | 0/23 [15:54<?, ?it/s]Epoch 24/61 - Progress: 18/23:   0%|          | 0/23 [16:08<?, ?it/s]Epoch 24/61 - Progress: 19/23:   0%|          | 0/23 [16:08<?, ?it/s]Epoch 24/61 - Progress: 20/23:   0%|          | 0/23 [18:18<?, ?it/s]Epoch 24/61 - Progress: 21/23:   0%|          | 0/23 [18:18<?, ?it/s]Epoch 24/61 - Progress: 22/23:   0%|          | 0/23 [18:22<?, ?it/s]                                                                     Epoch 24/61 - Progress: 22/23:   0%|          | 0/23 [23:17<?, ?it/s]                                                                     Epoch 24/61 - Progress: 22/23:   0%|          | 0/23 [23:17<?, ?it/s]Checkpoint saved at epoch 24
+
+Epoch [24/61], Training Loss: 1.7187, Training accuracy: 28.2172, Eval Loss: 1.9749, Eval Accuracy: 21.2326
+ 
+
+Epoch 25/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 25/61 - Progress: 0/23:   0%|          | 0/23 [02:38<?, ?it/s][A
+Epoch 25/61 - Progress: 1/23:   0%|          | 0/23 [02:38<?, ?it/s][A
+Epoch 25/61 - Progress: 2/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 25/61 - Progress: 3/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 25/61 - Progress: 4/23:   0%|          | 0/23 [05:13<?, ?it/s][A
+Epoch 25/61 - Progress: 5/23:   0%|          | 0/23 [05:13<?, ?it/s][A
+Epoch 25/61 - Progress: 6/23:   0%|          | 0/23 [09:22<?, ?it/s][A
+Epoch 25/61 - Progress: 7/23:   0%|          | 0/23 [09:23<?, ?it/s][A
+Epoch 25/61 - Progress: 8/23:   0%|          | 0/23 [09:23<?, ?it/s][A
+Epoch 25/61 - Progress: 9/23:   0%|          | 0/23 [09:23<?, ?it/s][A
+Epoch 25/61 - Progress: 10/23:   0%|          | 0/23 [11:51<?, ?it/s][A
+Epoch 25/61 - Progress: 11/23:   0%|          | 0/23 [11:51<?, ?it/s][A
+Epoch 25/61 - Progress: 12/23:   0%|          | 0/23 [11:51<?, ?it/s][A
+Epoch 25/61 - Progress: 13/23:   0%|          | 0/23 [11:51<?, ?it/s][A
+Epoch 25/61 - Progress: 14/23:   0%|          | 0/23 [14:19<?, ?it/s][A
+Epoch 25/61 - Progress: 15/23:   0%|          | 0/23 [14:20<?, ?it/s][A
+Epoch 25/61 - Progress: 16/23:   0%|          | 0/23 [14:20<?, ?it/s][A
+Epoch 25/61 - Progress: 17/23:   0%|          | 0/23 [14:20<?, ?it/s][A
+Epoch 25/61 - Progress: 18/23:   0%|          | 0/23 [16:43<?, ?it/s][A
+Epoch 25/61 - Progress: 19/23:   0%|          | 0/23 [16:43<?, ?it/s][A
+Epoch 25/61 - Progress: 20/23:   0%|          | 0/23 [16:43<?, ?it/s][A
+Epoch 25/61 - Progress: 21/23:   0%|          | 0/23 [16:44<?, ?it/s][A
+Epoch 25/61 - Progress: 22/23:   0%|          | 0/23 [18:48<?, ?it/s][A
+                                                                     [A
+Epoch 25/61 - Progress: 22/23:   0%|          | 0/23 [23:38<?, ?it/s][A
+                                                                     [A
+Epoch 25/61 - Progress: 22/23:   0%|          | 0/23 [23:38<?, ?it/s][ACheckpoint saved at epoch 25
+
+Epoch [25/61], Training Loss: 1.7155, Training accuracy: 28.1044, Eval Loss: 2.0813, Eval Accuracy: 20.5782
+ 
+Epoch 26/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 26/61 - Progress: 0/23:   0%|          | 0/23 [02:36<?, ?it/s]Epoch 26/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 26/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 26/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 26/61 - Progress: 4/23:   0%|          | 0/23 [05:20<?, ?it/s]Epoch 26/61 - Progress: 5/23:   0%|          | 0/23 [07:19<?, ?it/s]Epoch 26/61 - Progress: 6/23:   0%|          | 0/23 [07:31<?, ?it/s]Epoch 26/61 - Progress: 7/23:   0%|          | 0/23 [09:23<?, ?it/s]Epoch 26/61 - Progress: 8/23:   0%|          | 0/23 [09:23<?, ?it/s]Epoch 26/61 - Progress: 9/23:   0%|          | 0/23 [09:51<?, ?it/s]Epoch 26/61 - Progress: 10/23:   0%|          | 0/23 [10:04<?, ?it/s]Epoch 26/61 - Progress: 11/23:   0%|          | 0/23 [11:55<?, ?it/s]Epoch 26/61 - Progress: 12/23:   0%|          | 0/23 [11:55<?, ?it/s]Epoch 26/61 - Progress: 13/23:   0%|          | 0/23 [12:21<?, ?it/s]Epoch 26/61 - Progress: 14/23:   0%|          | 0/23 [12:35<?, ?it/s]Epoch 26/61 - Progress: 15/23:   0%|          | 0/23 [14:27<?, ?it/s]Epoch 26/61 - Progress: 16/23:   0%|          | 0/23 [14:27<?, ?it/s]Epoch 26/61 - Progress: 17/23:   0%|          | 0/23 [14:51<?, ?it/s]Epoch 26/61 - Progress: 18/23:   0%|          | 0/23 [15:05<?, ?it/s]Epoch 26/61 - Progress: 19/23:   0%|          | 0/23 [16:55<?, ?it/s]Epoch 26/61 - Progress: 20/23:   0%|          | 0/23 [16:55<?, ?it/s]Epoch 26/61 - Progress: 21/23:   0%|          | 0/23 [17:19<?, ?it/s]Epoch 26/61 - Progress: 22/23:   0%|          | 0/23 [17:22<?, ?it/s]                                                                     Epoch 26/61 - Progress: 22/23:   0%|          | 0/23 [22:12<?, ?it/s]                                                                     Epoch 26/61 - Progress: 22/23:   0%|          | 0/23 [22:12<?, ?it/s]Epoch [26/61], Training Loss: 1.7222, Training accuracy: 28.6375, Eval Loss: 1.9764, Eval Accuracy: 22.8872
+ 
+
+Epoch 27/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 27/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 27/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 27/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 27/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 27/61 - Progress: 4/23:   0%|          | 0/23 [08:38<?, ?it/s][A
+Epoch 27/61 - Progress: 5/23:   0%|          | 0/23 [08:38<?, ?it/s][A
+Epoch 27/61 - Progress: 6/23:   0%|          | 0/23 [08:38<?, ?it/s][A
+Epoch 27/61 - Progress: 7/23:   0%|          | 0/23 [08:38<?, ?it/s][A
+Epoch 27/61 - Progress: 8/23:   0%|          | 0/23 [11:07<?, ?it/s][A
+Epoch 27/61 - Progress: 9/23:   0%|          | 0/23 [11:07<?, ?it/s][A
+Epoch 27/61 - Progress: 10/23:   0%|          | 0/23 [11:07<?, ?it/s][A
+Epoch 27/61 - Progress: 11/23:   0%|          | 0/23 [11:07<?, ?it/s][A
+Epoch 27/61 - Progress: 12/23:   0%|          | 0/23 [13:36<?, ?it/s][A
+Epoch 27/61 - Progress: 13/23:   0%|          | 0/23 [13:36<?, ?it/s][A
+Epoch 27/61 - Progress: 14/23:   0%|          | 0/23 [13:36<?, ?it/s][A
+Epoch 27/61 - Progress: 15/23:   0%|          | 0/23 [13:36<?, ?it/s][A
+Epoch 27/61 - Progress: 16/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 27/61 - Progress: 17/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 27/61 - Progress: 18/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 27/61 - Progress: 19/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 27/61 - Progress: 20/23:   0%|          | 0/23 [18:26<?, ?it/s][A
+Epoch 27/61 - Progress: 21/23:   0%|          | 0/23 [18:26<?, ?it/s][A
+Epoch 27/61 - Progress: 22/23:   0%|          | 0/23 [18:26<?, ?it/s][A
+                                                                     [A
+Epoch 27/61 - Progress: 22/23:   0%|          | 0/23 [23:19<?, ?it/s][A
+                                                                     [A
+Epoch 27/61 - Progress: 22/23:   0%|          | 0/23 [23:19<?, ?it/s][ACheckpoint saved at epoch 27
+
+Epoch [27/61], Training Loss: 1.6988, Training accuracy: 28.6089, Eval Loss: 1.9312, Eval Accuracy: 22.8913
+ 
+Epoch 28/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 28/61 - Progress: 0/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 28/61 - Progress: 1/23:   0%|          | 0/23 [04:48<?, ?it/s]Epoch 28/61 - Progress: 2/23:   0%|          | 0/23 [04:48<?, ?it/s]Epoch 28/61 - Progress: 3/23:   0%|          | 0/23 [04:48<?, ?it/s]Epoch 28/61 - Progress: 4/23:   0%|          | 0/23 [07:28<?, ?it/s]Epoch 28/61 - Progress: 5/23:   0%|          | 0/23 [08:29<?, ?it/s]Epoch 28/61 - Progress: 6/23:   0%|          | 0/23 [08:30<?, ?it/s]Epoch 28/61 - Progress: 7/23:   0%|          | 0/23 [08:30<?, ?it/s]Epoch 28/61 - Progress: 8/23:   0%|          | 0/23 [09:57<?, ?it/s]Epoch 28/61 - Progress: 9/23:   0%|          | 0/23 [11:00<?, ?it/s]Epoch 28/61 - Progress: 10/23:   0%|          | 0/23 [11:01<?, ?it/s]Epoch 28/61 - Progress: 11/23:   0%|          | 0/23 [11:01<?, ?it/s]Epoch 28/61 - Progress: 12/23:   0%|          | 0/23 [12:26<?, ?it/s]Epoch 28/61 - Progress: 13/23:   0%|          | 0/23 [13:32<?, ?it/s]Epoch 28/61 - Progress: 14/23:   0%|          | 0/23 [13:32<?, ?it/s]Epoch 28/61 - Progress: 15/23:   0%|          | 0/23 [13:32<?, ?it/s]Epoch 28/61 - Progress: 16/23:   0%|          | 0/23 [14:55<?, ?it/s]Epoch 28/61 - Progress: 17/23:   0%|          | 0/23 [16:03<?, ?it/s]Epoch 28/61 - Progress: 18/23:   0%|          | 0/23 [16:04<?, ?it/s]Epoch 28/61 - Progress: 19/23:   0%|          | 0/23 [16:04<?, ?it/s]Epoch 28/61 - Progress: 20/23:   0%|          | 0/23 [17:21<?, ?it/s]Epoch 28/61 - Progress: 21/23:   0%|          | 0/23 [18:27<?, ?it/s]Epoch 28/61 - Progress: 22/23:   0%|          | 0/23 [18:27<?, ?it/s]                                                                     Epoch 28/61 - Progress: 22/23:   0%|          | 0/23 [23:27<?, ?it/s]                                                                     Epoch 28/61 - Progress: 22/23:   0%|          | 0/23 [23:27<?, ?it/s]Epoch [28/61], Training Loss: 1.7098, Training accuracy: 28.8880, Eval Loss: 2.0087, Eval Accuracy: 22.1472
+ 
+
+Epoch 29/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 29/61 - Progress: 0/23:   0%|          | 0/23 [04:17<?, ?it/s][A
+Epoch 29/61 - Progress: 1/23:   0%|          | 0/23 [04:18<?, ?it/s][A
+Epoch 29/61 - Progress: 2/23:   0%|          | 0/23 [04:18<?, ?it/s][A
+Epoch 29/61 - Progress: 3/23:   0%|          | 0/23 [04:18<?, ?it/s][A
+Epoch 29/61 - Progress: 4/23:   0%|          | 0/23 [08:07<?, ?it/s][A
+Epoch 29/61 - Progress: 5/23:   0%|          | 0/23 [08:17<?, ?it/s][A
+Epoch 29/61 - Progress: 6/23:   0%|          | 0/23 [08:17<?, ?it/s][A
+Epoch 29/61 - Progress: 7/23:   0%|          | 0/23 [08:17<?, ?it/s][A
+Epoch 29/61 - Progress: 8/23:   0%|          | 0/23 [10:49<?, ?it/s][A
+Epoch 29/61 - Progress: 9/23:   0%|          | 0/23 [10:58<?, ?it/s][A
+Epoch 29/61 - Progress: 10/23:   0%|          | 0/23 [10:58<?, ?it/s][A
+Epoch 29/61 - Progress: 11/23:   0%|          | 0/23 [10:59<?, ?it/s][A
+Epoch 29/61 - Progress: 12/23:   0%|          | 0/23 [13:27<?, ?it/s][A
+Epoch 29/61 - Progress: 13/23:   0%|          | 0/23 [13:37<?, ?it/s][A
+Epoch 29/61 - Progress: 14/23:   0%|          | 0/23 [13:37<?, ?it/s][A
+Epoch 29/61 - Progress: 15/23:   0%|          | 0/23 [13:37<?, ?it/s][A
+Epoch 29/61 - Progress: 16/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 29/61 - Progress: 17/23:   0%|          | 0/23 [16:15<?, ?it/s][A
+Epoch 29/61 - Progress: 18/23:   0%|          | 0/23 [16:15<?, ?it/s][A
+Epoch 29/61 - Progress: 19/23:   0%|          | 0/23 [16:15<?, ?it/s][A
+Epoch 29/61 - Progress: 20/23:   0%|          | 0/23 [18:37<?, ?it/s][A
+Epoch 29/61 - Progress: 21/23:   0%|          | 0/23 [18:49<?, ?it/s][A
+Epoch 29/61 - Progress: 22/23:   0%|          | 0/23 [18:49<?, ?it/s][A
+                                                                     [A
+Epoch 29/61 - Progress: 22/23:   0%|          | 0/23 [23:38<?, ?it/s][A
+                                                                     [A
+Epoch 29/61 - Progress: 22/23:   0%|          | 0/23 [23:38<?, ?it/s][ACheckpoint saved at epoch 29
+
+Checkpoint saved at epoch 29
+
+Epoch [29/61], Training Loss: 1.7015, Training accuracy: 29.1411, Eval Loss: 1.8180, Eval Accuracy: 25.0671
+ 
+Epoch 30/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 30/61 - Progress: 0/23:   0%|          | 0/23 [03:44<?, ?it/s]Epoch 30/61 - Progress: 1/23:   0%|          | 0/23 [03:44<?, ?it/s]Epoch 30/61 - Progress: 2/23:   0%|          | 0/23 [04:41<?, ?it/s]Epoch 30/61 - Progress: 3/23:   0%|          | 0/23 [04:41<?, ?it/s]Epoch 30/61 - Progress: 4/23:   0%|          | 0/23 [06:17<?, ?it/s]Epoch 30/61 - Progress: 5/23:   0%|          | 0/23 [06:17<?, ?it/s]Epoch 30/61 - Progress: 6/23:   0%|          | 0/23 [09:16<?, ?it/s]Epoch 30/61 - Progress: 7/23:   0%|          | 0/23 [09:16<?, ?it/s]Epoch 30/61 - Progress: 8/23:   0%|          | 0/23 [09:16<?, ?it/s]Epoch 30/61 - Progress: 9/23:   0%|          | 0/23 [09:16<?, ?it/s]Epoch 30/61 - Progress: 10/23:   0%|          | 0/23 [11:46<?, ?it/s]Epoch 30/61 - Progress: 11/23:   0%|          | 0/23 [11:46<?, ?it/s]Epoch 30/61 - Progress: 12/23:   0%|          | 0/23 [11:46<?, ?it/s]Epoch 30/61 - Progress: 13/23:   0%|          | 0/23 [11:46<?, ?it/s]Epoch 30/61 - Progress: 14/23:   0%|          | 0/23 [14:15<?, ?it/s]Epoch 30/61 - Progress: 15/23:   0%|          | 0/23 [14:15<?, ?it/s]Epoch 30/61 - Progress: 16/23:   0%|          | 0/23 [14:15<?, ?it/s]Epoch 30/61 - Progress: 17/23:   0%|          | 0/23 [14:15<?, ?it/s]Epoch 30/61 - Progress: 18/23:   0%|          | 0/23 [16:40<?, ?it/s]Epoch 30/61 - Progress: 19/23:   0%|          | 0/23 [16:40<?, ?it/s]Epoch 30/61 - Progress: 20/23:   0%|          | 0/23 [16:40<?, ?it/s]Epoch 30/61 - Progress: 21/23:   0%|          | 0/23 [16:40<?, ?it/s]Epoch 30/61 - Progress: 22/23:   0%|          | 0/23 [18:48<?, ?it/s]                                                                     Epoch 30/61 - Progress: 22/23:   0%|          | 0/23 [23:37<?, ?it/s]                                                                     Epoch 30/61 - Progress: 22/23:   0%|          | 0/23 [23:37<?, ?it/s]Checkpoint saved at epoch 30
+
+Epoch [30/61], Training Loss: 1.6938, Training accuracy: 29.3112, Eval Loss: 1.8799, Eval Accuracy: 23.4261
+ 
+
+Epoch 31/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 31/61 - Progress: 0/23:   0%|          | 0/23 [02:35<?, ?it/s][A
+Epoch 31/61 - Progress: 1/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 31/61 - Progress: 2/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 31/61 - Progress: 3/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 31/61 - Progress: 4/23:   0%|          | 0/23 [05:09<?, ?it/s][A
+Epoch 31/61 - Progress: 5/23:   0%|          | 0/23 [08:28<?, ?it/s][A
+Epoch 31/61 - Progress: 6/23:   0%|          | 0/23 [08:31<?, ?it/s][A
+Epoch 31/61 - Progress: 7/23:   0%|          | 0/23 [08:31<?, ?it/s][A
+Epoch 31/61 - Progress: 8/23:   0%|          | 0/23 [08:31<?, ?it/s][A
+Epoch 31/61 - Progress: 9/23:   0%|          | 0/23 [10:56<?, ?it/s][A
+Epoch 31/61 - Progress: 10/23:   0%|          | 0/23 [11:02<?, ?it/s][A
+Epoch 31/61 - Progress: 11/23:   0%|          | 0/23 [11:02<?, ?it/s][A
+Epoch 31/61 - Progress: 12/23:   0%|          | 0/23 [11:02<?, ?it/s][A
+Epoch 31/61 - Progress: 13/23:   0%|          | 0/23 [13:24<?, ?it/s][A
+Epoch 31/61 - Progress: 14/23:   0%|          | 0/23 [13:33<?, ?it/s][A
+Epoch 31/61 - Progress: 15/23:   0%|          | 0/23 [13:33<?, ?it/s][A
+Epoch 31/61 - Progress: 16/23:   0%|          | 0/23 [13:33<?, ?it/s][A
+Epoch 31/61 - Progress: 17/23:   0%|          | 0/23 [15:51<?, ?it/s][A
+Epoch 31/61 - Progress: 18/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 31/61 - Progress: 19/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 31/61 - Progress: 20/23:   0%|          | 0/23 [16:05<?, ?it/s][A
+Epoch 31/61 - Progress: 21/23:   0%|          | 0/23 [18:11<?, ?it/s][A
+Epoch 31/61 - Progress: 22/23:   0%|          | 0/23 [18:24<?, ?it/s][A
+                                                                     [A
+Epoch 31/61 - Progress: 22/23:   0%|          | 0/23 [23:14<?, ?it/s][A
+                                                                     [A
+Epoch 31/61 - Progress: 22/23:   0%|          | 0/23 [23:14<?, ?it/s][ACheckpoint saved at epoch 31
+
+Epoch [31/61], Training Loss: 1.6938, Training accuracy: 29.2485, Eval Loss: 2.0357, Eval Accuracy: 20.5858
+ 
+Epoch 32/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 32/61 - Progress: 0/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 32/61 - Progress: 1/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 32/61 - Progress: 2/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 32/61 - Progress: 3/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 32/61 - Progress: 4/23:   0%|          | 0/23 [08:31<?, ?it/s]Epoch 32/61 - Progress: 5/23:   0%|          | 0/23 [08:31<?, ?it/s]Epoch 32/61 - Progress: 6/23:   0%|          | 0/23 [08:31<?, ?it/s]Epoch 32/61 - Progress: 7/23:   0%|          | 0/23 [08:32<?, ?it/s]Epoch 32/61 - Progress: 8/23:   0%|          | 0/23 [11:01<?, ?it/s]Epoch 32/61 - Progress: 9/23:   0%|          | 0/23 [11:01<?, ?it/s]Epoch 32/61 - Progress: 10/23:   0%|          | 0/23 [11:01<?, ?it/s]Epoch 32/61 - Progress: 11/23:   0%|          | 0/23 [11:04<?, ?it/s]Epoch 32/61 - Progress: 12/23:   0%|          | 0/23 [13:31<?, ?it/s]Epoch 32/61 - Progress: 13/23:   0%|          | 0/23 [13:31<?, ?it/s]Epoch 32/61 - Progress: 14/23:   0%|          | 0/23 [13:31<?, ?it/s]Epoch 32/61 - Progress: 15/23:   0%|          | 0/23 [13:33<?, ?it/s]Epoch 32/61 - Progress: 16/23:   0%|          | 0/23 [16:02<?, ?it/s]Epoch 32/61 - Progress: 17/23:   0%|          | 0/23 [16:02<?, ?it/s]Epoch 32/61 - Progress: 18/23:   0%|          | 0/23 [16:02<?, ?it/s]Epoch 32/61 - Progress: 19/23:   0%|          | 0/23 [16:02<?, ?it/s]Epoch 32/61 - Progress: 20/23:   0%|          | 0/23 [18:19<?, ?it/s]Epoch 32/61 - Progress: 21/23:   0%|          | 0/23 [18:19<?, ?it/s]Epoch 32/61 - Progress: 22/23:   0%|          | 0/23 [18:19<?, ?it/s]                                                                     Epoch 32/61 - Progress: 22/23:   0%|          | 0/23 [23:10<?, ?it/s]                                                                     Epoch 32/61 - Progress: 22/23:   0%|          | 0/23 [23:10<?, ?it/s]Epoch [32/61], Training Loss: 1.7023, Training accuracy: 29.3822, Eval Loss: 1.8981, Eval Accuracy: 24.1681
+ 
+
+Epoch 33/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 33/61 - Progress: 0/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 33/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 33/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 33/61 - Progress: 3/23:   0%|          | 0/23 [04:46<?, ?it/s][A
+Epoch 33/61 - Progress: 4/23:   0%|          | 0/23 [07:30<?, ?it/s][A
+Epoch 33/61 - Progress: 5/23:   0%|          | 0/23 [07:30<?, ?it/s][A
+Epoch 33/61 - Progress: 6/23:   0%|          | 0/23 [08:31<?, ?it/s][A
+Epoch 33/61 - Progress: 7/23:   0%|          | 0/23 [08:31<?, ?it/s][A
+Epoch 33/61 - Progress: 8/23:   0%|          | 0/23 [10:02<?, ?it/s][A
+Epoch 33/61 - Progress: 9/23:   0%|          | 0/23 [10:02<?, ?it/s][A
+Epoch 33/61 - Progress: 10/23:   0%|          | 0/23 [11:01<?, ?it/s][A
+Epoch 33/61 - Progress: 11/23:   0%|          | 0/23 [11:01<?, ?it/s][A
+Epoch 33/61 - Progress: 12/23:   0%|          | 0/23 [12:32<?, ?it/s][A
+Epoch 33/61 - Progress: 13/23:   0%|          | 0/23 [12:32<?, ?it/s][A
+Epoch 33/61 - Progress: 14/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 33/61 - Progress: 15/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 33/61 - Progress: 16/23:   0%|          | 0/23 [15:01<?, ?it/s][A
+Epoch 33/61 - Progress: 17/23:   0%|          | 0/23 [15:01<?, ?it/s][A
+Epoch 33/61 - Progress: 18/23:   0%|          | 0/23 [16:00<?, ?it/s][A
+Epoch 33/61 - Progress: 19/23:   0%|          | 0/23 [16:00<?, ?it/s][A
+Epoch 33/61 - Progress: 20/23:   0%|          | 0/23 [17:27<?, ?it/s][A
+Epoch 33/61 - Progress: 21/23:   0%|          | 0/23 [17:27<?, ?it/s][A
+Epoch 33/61 - Progress: 22/23:   0%|          | 0/23 [18:12<?, ?it/s][A
+                                                                     [A
+Epoch 33/61 - Progress: 22/23:   0%|          | 0/23 [23:03<?, ?it/s][A
+                                                                     [A
+Epoch 33/61 - Progress: 22/23:   0%|          | 0/23 [23:03<?, ?it/s][AEpoch [33/61], Training Loss: 1.7023, Training accuracy: 29.3162, Eval Loss: 1.8431, Eval Accuracy: 23.3277
+ 
+Epoch 34/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 34/61 - Progress: 0/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 34/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 34/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 34/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 34/61 - Progress: 4/23:   0%|          | 0/23 [08:23<?, ?it/s]Epoch 34/61 - Progress: 5/23:   0%|          | 0/23 [08:23<?, ?it/s]Epoch 34/61 - Progress: 6/23:   0%|          | 0/23 [08:23<?, ?it/s]Epoch 34/61 - Progress: 7/23:   0%|          | 0/23 [08:23<?, ?it/s]Epoch 34/61 - Progress: 8/23:   0%|          | 0/23 [10:57<?, ?it/s]Epoch 34/61 - Progress: 9/23:   0%|          | 0/23 [10:57<?, ?it/s]Epoch 34/61 - Progress: 10/23:   0%|          | 0/23 [10:57<?, ?it/s]Epoch 34/61 - Progress: 11/23:   0%|          | 0/23 [10:57<?, ?it/s]Epoch 34/61 - Progress: 12/23:   0%|          | 0/23 [13:29<?, ?it/s]Epoch 34/61 - Progress: 13/23:   0%|          | 0/23 [13:29<?, ?it/s]Epoch 34/61 - Progress: 14/23:   0%|          | 0/23 [13:29<?, ?it/s]Epoch 34/61 - Progress: 15/23:   0%|          | 0/23 [13:29<?, ?it/s]Epoch 34/61 - Progress: 16/23:   0%|          | 0/23 [15:59<?, ?it/s]Epoch 34/61 - Progress: 17/23:   0%|          | 0/23 [15:59<?, ?it/s]Epoch 34/61 - Progress: 18/23:   0%|          | 0/23 [15:59<?, ?it/s]Epoch 34/61 - Progress: 19/23:   0%|          | 0/23 [15:59<?, ?it/s]Epoch 34/61 - Progress: 20/23:   0%|          | 0/23 [18:23<?, ?it/s]Epoch 34/61 - Progress: 21/23:   0%|          | 0/23 [18:23<?, ?it/s]Epoch 34/61 - Progress: 22/23:   0%|          | 0/23 [18:23<?, ?it/s]                                                                     Epoch 34/61 - Progress: 22/23:   0%|          | 0/23 [23:14<?, ?it/s]                                                                     Epoch 34/61 - Progress: 22/23:   0%|          | 0/23 [23:14<?, ?it/s]Epoch [34/61], Training Loss: 1.6954, Training accuracy: 29.7240, Eval Loss: 1.9031, Eval Accuracy: 23.9691
+ 
+
+Epoch 35/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 35/61 - Progress: 0/23:   0%|          | 0/23 [02:37<?, ?it/s][A
+Epoch 35/61 - Progress: 1/23:   0%|          | 0/23 [03:46<?, ?it/s][A
+Epoch 35/61 - Progress: 2/23:   0%|          | 0/23 [03:47<?, ?it/s][A
+Epoch 35/61 - Progress: 3/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 35/61 - Progress: 4/23:   0%|          | 0/23 [05:23<?, ?it/s][A
+Epoch 35/61 - Progress: 5/23:   0%|          | 0/23 [06:20<?, ?it/s][A
+Epoch 35/61 - Progress: 6/23:   0%|          | 0/23 [07:18<?, ?it/s][A
+Epoch 35/61 - Progress: 7/23:   0%|          | 0/23 [09:19<?, ?it/s][A
+Epoch 35/61 - Progress: 8/23:   0%|          | 0/23 [09:19<?, ?it/s][A
+Epoch 35/61 - Progress: 9/23:   0%|          | 0/23 [09:19<?, ?it/s][A
+Epoch 35/61 - Progress: 10/23:   0%|          | 0/23 [10:37<?, ?it/s][A
+Epoch 35/61 - Progress: 11/23:   0%|          | 0/23 [11:48<?, ?it/s][A
+Epoch 35/61 - Progress: 12/23:   0%|          | 0/23 [11:48<?, ?it/s][A
+Epoch 35/61 - Progress: 13/23:   0%|          | 0/23 [11:48<?, ?it/s][A
+Epoch 35/61 - Progress: 14/23:   0%|          | 0/23 [13:08<?, ?it/s][A
+Epoch 35/61 - Progress: 15/23:   0%|          | 0/23 [14:22<?, ?it/s][A
+Epoch 35/61 - Progress: 16/23:   0%|          | 0/23 [14:22<?, ?it/s][A
+Epoch 35/61 - Progress: 17/23:   0%|          | 0/23 [14:22<?, ?it/s][A
+Epoch 35/61 - Progress: 18/23:   0%|          | 0/23 [15:40<?, ?it/s][A
+Epoch 35/61 - Progress: 19/23:   0%|          | 0/23 [16:50<?, ?it/s][A
+Epoch 35/61 - Progress: 20/23:   0%|          | 0/23 [16:50<?, ?it/s][A
+Epoch 35/61 - Progress: 21/23:   0%|          | 0/23 [16:50<?, ?it/s][A
+Epoch 35/61 - Progress: 22/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+                                                                     [A
+Epoch 35/61 - Progress: 22/23:   0%|          | 0/23 [22:47<?, ?it/s][A
+                                                                     [A
+Epoch 35/61 - Progress: 22/23:   0%|          | 0/23 [22:47<?, ?it/s][ACheckpoint saved at epoch 35
+
+Epoch [35/61], Training Loss: 1.6952, Training accuracy: 29.5618, Eval Loss: 1.9582, Eval Accuracy: 22.9080
+ 
+Epoch 36/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 36/61 - Progress: 0/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 36/61 - Progress: 1/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 36/61 - Progress: 2/23:   0%|          | 0/23 [04:42<?, ?it/s]Epoch 36/61 - Progress: 3/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 36/61 - Progress: 4/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 36/61 - Progress: 5/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 36/61 - Progress: 6/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 36/61 - Progress: 7/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 36/61 - Progress: 8/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 36/61 - Progress: 9/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 36/61 - Progress: 10/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 36/61 - Progress: 11/23:   0%|          | 0/23 [11:24<?, ?it/s]Epoch 36/61 - Progress: 12/23:   0%|          | 0/23 [13:54<?, ?it/s]Epoch 36/61 - Progress: 13/23:   0%|          | 0/23 [13:54<?, ?it/s]Epoch 36/61 - Progress: 14/23:   0%|          | 0/23 [13:54<?, ?it/s]Epoch 36/61 - Progress: 15/23:   0%|          | 0/23 [13:54<?, ?it/s]Epoch 36/61 - Progress: 16/23:   0%|          | 0/23 [16:22<?, ?it/s]Epoch 36/61 - Progress: 17/23:   0%|          | 0/23 [16:22<?, ?it/s]Epoch 36/61 - Progress: 18/23:   0%|          | 0/23 [16:22<?, ?it/s]Epoch 36/61 - Progress: 19/23:   0%|          | 0/23 [16:22<?, ?it/s]Epoch 36/61 - Progress: 20/23:   0%|          | 0/23 [18:41<?, ?it/s]Epoch 36/61 - Progress: 21/23:   0%|          | 0/23 [18:41<?, ?it/s]Epoch 36/61 - Progress: 22/23:   0%|          | 0/23 [18:41<?, ?it/s]                                                                     Epoch 36/61 - Progress: 22/23:   0%|          | 0/23 [23:34<?, ?it/s]                                                                     Epoch 36/61 - Progress: 22/23:   0%|          | 0/23 [23:34<?, ?it/s]Epoch [36/61], Training Loss: 1.6963, Training accuracy: 29.7880, Eval Loss: 2.0182, Eval Accuracy: 21.3203
+ 
+
+Epoch 37/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 37/61 - Progress: 0/23:   0%|          | 0/23 [02:36<?, ?it/s][A
+Epoch 37/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 37/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 37/61 - Progress: 3/23:   0%|          | 0/23 [04:46<?, ?it/s][A
+Epoch 37/61 - Progress: 4/23:   0%|          | 0/23 [05:09<?, ?it/s][A
+Epoch 37/61 - Progress: 5/23:   0%|          | 0/23 [07:30<?, ?it/s][A
+Epoch 37/61 - Progress: 6/23:   0%|          | 0/23 [09:17<?, ?it/s][A
+Epoch 37/61 - Progress: 7/23:   0%|          | 0/23 [09:17<?, ?it/s][A
+Epoch 37/61 - Progress: 8/23:   0%|          | 0/23 [09:17<?, ?it/s][A
+Epoch 37/61 - Progress: 9/23:   0%|          | 0/23 [10:03<?, ?it/s][A
+Epoch 37/61 - Progress: 10/23:   0%|          | 0/23 [11:47<?, ?it/s][A
+Epoch 37/61 - Progress: 11/23:   0%|          | 0/23 [11:47<?, ?it/s][A
+Epoch 37/61 - Progress: 12/23:   0%|          | 0/23 [11:47<?, ?it/s][A
+Epoch 37/61 - Progress: 13/23:   0%|          | 0/23 [12:35<?, ?it/s][A
+Epoch 37/61 - Progress: 14/23:   0%|          | 0/23 [14:17<?, ?it/s][A
+Epoch 37/61 - Progress: 15/23:   0%|          | 0/23 [14:17<?, ?it/s][A
+Epoch 37/61 - Progress: 16/23:   0%|          | 0/23 [14:17<?, ?it/s][A
+Epoch 37/61 - Progress: 17/23:   0%|          | 0/23 [15:05<?, ?it/s][A
+Epoch 37/61 - Progress: 18/23:   0%|          | 0/23 [16:42<?, ?it/s][A
+Epoch 37/61 - Progress: 19/23:   0%|          | 0/23 [16:42<?, ?it/s][A
+Epoch 37/61 - Progress: 20/23:   0%|          | 0/23 [16:43<?, ?it/s][A
+Epoch 37/61 - Progress: 21/23:   0%|          | 0/23 [17:29<?, ?it/s][A
+Epoch 37/61 - Progress: 22/23:   0%|          | 0/23 [18:51<?, ?it/s][A
+                                                                     [A
+Epoch 37/61 - Progress: 22/23:   0%|          | 0/23 [23:43<?, ?it/s][A
+                                                                     [A
+Epoch 37/61 - Progress: 22/23:   0%|          | 0/23 [23:43<?, ?it/s][ACheckpoint saved at epoch 37
+
+Epoch [37/61], Training Loss: 1.6926, Training accuracy: 29.7436, Eval Loss: 1.8889, Eval Accuracy: 23.9201
+ 
+Epoch 38/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 38/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 38/61 - Progress: 1/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 38/61 - Progress: 2/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 38/61 - Progress: 3/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 38/61 - Progress: 4/23:   0%|          | 0/23 [08:27<?, ?it/s]Epoch 38/61 - Progress: 5/23:   0%|          | 0/23 [08:36<?, ?it/s]Epoch 38/61 - Progress: 6/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 38/61 - Progress: 7/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 38/61 - Progress: 8/23:   0%|          | 0/23 [10:55<?, ?it/s]Epoch 38/61 - Progress: 9/23:   0%|          | 0/23 [11:05<?, ?it/s]Epoch 38/61 - Progress: 10/23:   0%|          | 0/23 [11:05<?, ?it/s]Epoch 38/61 - Progress: 11/23:   0%|          | 0/23 [11:05<?, ?it/s]Epoch 38/61 - Progress: 12/23:   0%|          | 0/23 [13:23<?, ?it/s]Epoch 38/61 - Progress: 13/23:   0%|          | 0/23 [13:34<?, ?it/s]Epoch 38/61 - Progress: 14/23:   0%|          | 0/23 [13:35<?, ?it/s]Epoch 38/61 - Progress: 15/23:   0%|          | 0/23 [13:35<?, ?it/s]Epoch 38/61 - Progress: 16/23:   0%|          | 0/23 [15:52<?, ?it/s]Epoch 38/61 - Progress: 17/23:   0%|          | 0/23 [16:03<?, ?it/s]Epoch 38/61 - Progress: 18/23:   0%|          | 0/23 [16:03<?, ?it/s]Epoch 38/61 - Progress: 19/23:   0%|          | 0/23 [16:03<?, ?it/s]Epoch 38/61 - Progress: 20/23:   0%|          | 0/23 [18:14<?, ?it/s]Epoch 38/61 - Progress: 21/23:   0%|          | 0/23 [18:24<?, ?it/s]Epoch 38/61 - Progress: 22/23:   0%|          | 0/23 [18:24<?, ?it/s]                                                                     Epoch 38/61 - Progress: 22/23:   0%|          | 0/23 [23:16<?, ?it/s]                                                                     Epoch 38/61 - Progress: 22/23:   0%|          | 0/23 [23:16<?, ?it/s]Checkpoint saved at epoch 38
+
+Epoch [38/61], Training Loss: 1.6863, Training accuracy: 29.7543, Eval Loss: 1.9765, Eval Accuracy: 22.0862
+ 
+
+Epoch 39/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 39/61 - Progress: 0/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 39/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 39/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 39/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 39/61 - Progress: 4/23:   0%|          | 0/23 [08:37<?, ?it/s][A
+Epoch 39/61 - Progress: 5/23:   0%|          | 0/23 [08:39<?, ?it/s][A
+Epoch 39/61 - Progress: 6/23:   0%|          | 0/23 [08:39<?, ?it/s][A
+Epoch 39/61 - Progress: 7/23:   0%|          | 0/23 [08:40<?, ?it/s][A
+Epoch 39/61 - Progress: 8/23:   0%|          | 0/23 [11:07<?, ?it/s][A
+Epoch 39/61 - Progress: 9/23:   0%|          | 0/23 [11:08<?, ?it/s][A
+Epoch 39/61 - Progress: 10/23:   0%|          | 0/23 [11:08<?, ?it/s][A
+Epoch 39/61 - Progress: 11/23:   0%|          | 0/23 [11:08<?, ?it/s][A
+Epoch 39/61 - Progress: 12/23:   0%|          | 0/23 [13:35<?, ?it/s][A
+Epoch 39/61 - Progress: 13/23:   0%|          | 0/23 [13:37<?, ?it/s][A
+Epoch 39/61 - Progress: 14/23:   0%|          | 0/23 [13:37<?, ?it/s][A
+Epoch 39/61 - Progress: 15/23:   0%|          | 0/23 [13:37<?, ?it/s][A
+Epoch 39/61 - Progress: 16/23:   0%|          | 0/23 [16:02<?, ?it/s][A
+Epoch 39/61 - Progress: 17/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 39/61 - Progress: 18/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 39/61 - Progress: 19/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 39/61 - Progress: 20/23:   0%|          | 0/23 [18:24<?, ?it/s][A
+Epoch 39/61 - Progress: 21/23:   0%|          | 0/23 [18:25<?, ?it/s][A
+Epoch 39/61 - Progress: 22/23:   0%|          | 0/23 [18:25<?, ?it/s][A
+                                                                     [A
+Epoch 39/61 - Progress: 22/23:   0%|          | 0/23 [23:23<?, ?it/s][A
+                                                                     [A
+Epoch 39/61 - Progress: 22/23:   0%|          | 0/23 [23:23<?, ?it/s][ACheckpoint saved at epoch 39
+
+Epoch [39/61], Training Loss: 1.6730, Training accuracy: 30.0201, Eval Loss: 2.0615, Eval Accuracy: 22.2238
+ 
+Epoch 40/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 40/61 - Progress: 0/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 40/61 - Progress: 1/23:   0%|          | 0/23 [04:46<?, ?it/s]Epoch 40/61 - Progress: 2/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 40/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 40/61 - Progress: 4/23:   0%|          | 0/23 [08:43<?, ?it/s]Epoch 40/61 - Progress: 5/23:   0%|          | 0/23 [08:43<?, ?it/s]Epoch 40/61 - Progress: 6/23:   0%|          | 0/23 [08:44<?, ?it/s]Epoch 40/61 - Progress: 7/23:   0%|          | 0/23 [08:44<?, ?it/s]Epoch 40/61 - Progress: 8/23:   0%|          | 0/23 [11:14<?, ?it/s]Epoch 40/61 - Progress: 9/23:   0%|          | 0/23 [11:14<?, ?it/s]Epoch 40/61 - Progress: 10/23:   0%|          | 0/23 [11:14<?, ?it/s]Epoch 40/61 - Progress: 11/23:   0%|          | 0/23 [11:14<?, ?it/s]Epoch 40/61 - Progress: 12/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 40/61 - Progress: 13/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 40/61 - Progress: 14/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 40/61 - Progress: 15/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 40/61 - Progress: 16/23:   0%|          | 0/23 [16:12<?, ?it/s]Epoch 40/61 - Progress: 17/23:   0%|          | 0/23 [16:12<?, ?it/s]Epoch 40/61 - Progress: 18/23:   0%|          | 0/23 [16:12<?, ?it/s]Epoch 40/61 - Progress: 19/23:   0%|          | 0/23 [16:13<?, ?it/s]Epoch 40/61 - Progress: 20/23:   0%|          | 0/23 [18:34<?, ?it/s]Epoch 40/61 - Progress: 21/23:   0%|          | 0/23 [18:34<?, ?it/s]Epoch 40/61 - Progress: 22/23:   0%|          | 0/23 [18:34<?, ?it/s]                                                                     Epoch 40/61 - Progress: 22/23:   0%|          | 0/23 [23:25<?, ?it/s]                                                                     Epoch 40/61 - Progress: 22/23:   0%|          | 0/23 [23:25<?, ?it/s]Epoch [40/61], Training Loss: 1.6753, Training accuracy: 29.9489, Eval Loss: 2.0034, Eval Accuracy: 21.7842
+ 
+
+Epoch 41/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 41/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 41/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s][A
+Epoch 41/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 41/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 41/61 - Progress: 4/23:   0%|          | 0/23 [08:41<?, ?it/s][A
+Epoch 41/61 - Progress: 5/23:   0%|          | 0/23 [08:41<?, ?it/s][A
+Epoch 41/61 - Progress: 6/23:   0%|          | 0/23 [08:41<?, ?it/s][A
+Epoch 41/61 - Progress: 7/23:   0%|          | 0/23 [08:41<?, ?it/s][A
+Epoch 41/61 - Progress: 8/23:   0%|          | 0/23 [11:10<?, ?it/s][A
+Epoch 41/61 - Progress: 9/23:   0%|          | 0/23 [11:11<?, ?it/s][A
+Epoch 41/61 - Progress: 10/23:   0%|          | 0/23 [11:11<?, ?it/s][A
+Epoch 41/61 - Progress: 11/23:   0%|          | 0/23 [11:11<?, ?it/s][A
+Epoch 41/61 - Progress: 12/23:   0%|          | 0/23 [13:41<?, ?it/s][A
+Epoch 41/61 - Progress: 13/23:   0%|          | 0/23 [13:41<?, ?it/s][A
+Epoch 41/61 - Progress: 14/23:   0%|          | 0/23 [13:42<?, ?it/s][A
+Epoch 41/61 - Progress: 15/23:   0%|          | 0/23 [13:42<?, ?it/s][A
+Epoch 41/61 - Progress: 16/23:   0%|          | 0/23 [16:06<?, ?it/s][A
+Epoch 41/61 - Progress: 17/23:   0%|          | 0/23 [16:06<?, ?it/s][A
+Epoch 41/61 - Progress: 18/23:   0%|          | 0/23 [16:12<?, ?it/s][A
+Epoch 41/61 - Progress: 19/23:   0%|          | 0/23 [16:12<?, ?it/s][A
+Epoch 41/61 - Progress: 20/23:   0%|          | 0/23 [18:30<?, ?it/s][A
+Epoch 41/61 - Progress: 21/23:   0%|          | 0/23 [18:30<?, ?it/s][A
+Epoch 41/61 - Progress: 22/23:   0%|          | 0/23 [18:30<?, ?it/s][A
+                                                                     [A
+Epoch 41/61 - Progress: 22/23:   0%|          | 0/23 [23:21<?, ?it/s][A
+                                                                     [A
+Epoch 41/61 - Progress: 22/23:   0%|          | 0/23 [23:21<?, ?it/s][ACheckpoint saved at epoch 41
+
+Checkpoint saved at epoch 41
+
+Epoch [41/61], Training Loss: 1.6726, Training accuracy: 30.1903, Eval Loss: 2.1228, Eval Accuracy: 20.2834
+ 
+Epoch 42/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 42/61 - Progress: 0/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 42/61 - Progress: 1/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 42/61 - Progress: 2/23:   0%|          | 0/23 [04:40<?, ?it/s]Epoch 42/61 - Progress: 3/23:   0%|          | 0/23 [04:41<?, ?it/s]Epoch 42/61 - Progress: 4/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 42/61 - Progress: 5/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 42/61 - Progress: 6/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 42/61 - Progress: 7/23:   0%|          | 0/23 [08:37<?, ?it/s]Epoch 42/61 - Progress: 8/23:   0%|          | 0/23 [11:05<?, ?it/s]Epoch 42/61 - Progress: 9/23:   0%|          | 0/23 [11:05<?, ?it/s]Epoch 42/61 - Progress: 10/23:   0%|          | 0/23 [11:05<?, ?it/s]Epoch 42/61 - Progress: 11/23:   0%|          | 0/23 [11:06<?, ?it/s]Epoch 42/61 - Progress: 12/23:   0%|          | 0/23 [13:34<?, ?it/s]Epoch 42/61 - Progress: 13/23:   0%|          | 0/23 [13:34<?, ?it/s]Epoch 42/61 - Progress: 14/23:   0%|          | 0/23 [13:34<?, ?it/s]Epoch 42/61 - Progress: 15/23:   0%|          | 0/23 [13:34<?, ?it/s]Epoch 42/61 - Progress: 16/23:   0%|          | 0/23 [16:01<?, ?it/s]Epoch 42/61 - Progress: 17/23:   0%|          | 0/23 [16:01<?, ?it/s]Epoch 42/61 - Progress: 18/23:   0%|          | 0/23 [16:01<?, ?it/s]Epoch 42/61 - Progress: 19/23:   0%|          | 0/23 [16:01<?, ?it/s]Epoch 42/61 - Progress: 20/23:   0%|          | 0/23 [18:20<?, ?it/s]Epoch 42/61 - Progress: 21/23:   0%|          | 0/23 [18:21<?, ?it/s]Epoch 42/61 - Progress: 22/23:   0%|          | 0/23 [18:21<?, ?it/s]                                                                     Epoch 42/61 - Progress: 22/23:   0%|          | 0/23 [23:14<?, ?it/s]                                                                     Epoch 42/61 - Progress: 22/23:   0%|          | 0/23 [23:14<?, ?it/s]Epoch [42/61], Training Loss: 1.6799, Training accuracy: 30.1542, Eval Loss: 1.8483, Eval Accuracy: 24.6958
+ 
+
+Epoch 43/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 43/61 - Progress: 0/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 43/61 - Progress: 1/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 43/61 - Progress: 2/23:   0%|          | 0/23 [04:48<?, ?it/s][A
+Epoch 43/61 - Progress: 3/23:   0%|          | 0/23 [04:48<?, ?it/s][A
+Epoch 43/61 - Progress: 4/23:   0%|          | 0/23 [07:37<?, ?it/s][A
+Epoch 43/61 - Progress: 5/23:   0%|          | 0/23 [08:48<?, ?it/s][A
+Epoch 43/61 - Progress: 6/23:   0%|          | 0/23 [08:49<?, ?it/s][A
+Epoch 43/61 - Progress: 7/23:   0%|          | 0/23 [08:49<?, ?it/s][A
+Epoch 43/61 - Progress: 8/23:   0%|          | 0/23 [10:10<?, ?it/s][A
+Epoch 43/61 - Progress: 9/23:   0%|          | 0/23 [11:18<?, ?it/s][A
+Epoch 43/61 - Progress: 10/23:   0%|          | 0/23 [11:18<?, ?it/s][A
+Epoch 43/61 - Progress: 11/23:   0%|          | 0/23 [11:19<?, ?it/s][A
+Epoch 43/61 - Progress: 12/23:   0%|          | 0/23 [12:42<?, ?it/s][A
+Epoch 43/61 - Progress: 13/23:   0%|          | 0/23 [13:48<?, ?it/s][A
+Epoch 43/61 - Progress: 14/23:   0%|          | 0/23 [13:49<?, ?it/s][A
+Epoch 43/61 - Progress: 15/23:   0%|          | 0/23 [13:49<?, ?it/s][A
+Epoch 43/61 - Progress: 16/23:   0%|          | 0/23 [15:13<?, ?it/s][A
+Epoch 43/61 - Progress: 17/23:   0%|          | 0/23 [16:18<?, ?it/s][A
+Epoch 43/61 - Progress: 18/23:   0%|          | 0/23 [16:18<?, ?it/s][A
+Epoch 43/61 - Progress: 19/23:   0%|          | 0/23 [16:18<?, ?it/s][A
+Epoch 43/61 - Progress: 20/23:   0%|          | 0/23 [17:40<?, ?it/s][A
+Epoch 43/61 - Progress: 21/23:   0%|          | 0/23 [18:38<?, ?it/s][A
+Epoch 43/61 - Progress: 22/23:   0%|          | 0/23 [18:39<?, ?it/s][A
+                                                                     [A
+Epoch 43/61 - Progress: 22/23:   0%|          | 0/23 [23:32<?, ?it/s][A
+                                                                     [A
+Epoch 43/61 - Progress: 22/23:   0%|          | 0/23 [23:32<?, ?it/s][AEpoch [43/61], Training Loss: 1.6839, Training accuracy: 30.4485, Eval Loss: 2.0298, Eval Accuracy: 21.2590
+ 
+Epoch 44/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 44/61 - Progress: 0/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 44/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 44/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 44/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 44/61 - Progress: 4/23:   0%|          | 0/23 [08:41<?, ?it/s]Epoch 44/61 - Progress: 5/23:   0%|          | 0/23 [08:41<?, ?it/s]Epoch 44/61 - Progress: 6/23:   0%|          | 0/23 [08:48<?, ?it/s]Epoch 44/61 - Progress: 7/23:   0%|          | 0/23 [08:48<?, ?it/s]Epoch 44/61 - Progress: 8/23:   0%|          | 0/23 [11:12<?, ?it/s]Epoch 44/61 - Progress: 9/23:   0%|          | 0/23 [11:12<?, ?it/s]Epoch 44/61 - Progress: 10/23:   0%|          | 0/23 [11:20<?, ?it/s]Epoch 44/61 - Progress: 11/23:   0%|          | 0/23 [11:20<?, ?it/s]Epoch 44/61 - Progress: 12/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 44/61 - Progress: 13/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 44/61 - Progress: 14/23:   0%|          | 0/23 [13:53<?, ?it/s]Epoch 44/61 - Progress: 15/23:   0%|          | 0/23 [13:53<?, ?it/s]Epoch 44/61 - Progress: 16/23:   0%|          | 0/23 [16:13<?, ?it/s]Epoch 44/61 - Progress: 17/23:   0%|          | 0/23 [16:14<?, ?it/s]Epoch 44/61 - Progress: 18/23:   0%|          | 0/23 [16:21<?, ?it/s]Epoch 44/61 - Progress: 19/23:   0%|          | 0/23 [16:21<?, ?it/s]Epoch 44/61 - Progress: 20/23:   0%|          | 0/23 [18:36<?, ?it/s]Epoch 44/61 - Progress: 21/23:   0%|          | 0/23 [18:36<?, ?it/s]Epoch 44/61 - Progress: 22/23:   0%|          | 0/23 [18:36<?, ?it/s]                                                                     Epoch 44/61 - Progress: 22/23:   0%|          | 0/23 [23:33<?, ?it/s]                                                                     Epoch 44/61 - Progress: 22/23:   0%|          | 0/23 [23:33<?, ?it/s]Checkpoint saved at epoch 44
+
+Epoch [44/61], Training Loss: 1.6713, Training accuracy: 30.0446, Eval Loss: 2.0915, Eval Accuracy: 21.3130
+ 
+
+Epoch 45/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 45/61 - Progress: 0/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 45/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 45/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 45/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s][A
+Epoch 45/61 - Progress: 4/23:   0%|          | 0/23 [09:01<?, ?it/s][A
+Epoch 45/61 - Progress: 5/23:   0%|          | 0/23 [09:01<?, ?it/s][A
+Epoch 45/61 - Progress: 6/23:   0%|          | 0/23 [09:01<?, ?it/s][A
+Epoch 45/61 - Progress: 7/23:   0%|          | 0/23 [09:01<?, ?it/s][A
+Epoch 45/61 - Progress: 8/23:   0%|          | 0/23 [11:31<?, ?it/s][A
+Epoch 45/61 - Progress: 9/23:   0%|          | 0/23 [11:31<?, ?it/s][A
+Epoch 45/61 - Progress: 10/23:   0%|          | 0/23 [11:31<?, ?it/s][A
+Epoch 45/61 - Progress: 11/23:   0%|          | 0/23 [11:31<?, ?it/s][A
+Epoch 45/61 - Progress: 12/23:   0%|          | 0/23 [14:01<?, ?it/s][A
+Epoch 45/61 - Progress: 13/23:   0%|          | 0/23 [14:01<?, ?it/s][A
+Epoch 45/61 - Progress: 14/23:   0%|          | 0/23 [14:02<?, ?it/s][A
+Epoch 45/61 - Progress: 15/23:   0%|          | 0/23 [14:02<?, ?it/s][A
+Epoch 45/61 - Progress: 16/23:   0%|          | 0/23 [16:27<?, ?it/s][A
+Epoch 45/61 - Progress: 17/23:   0%|          | 0/23 [16:28<?, ?it/s][A
+Epoch 45/61 - Progress: 18/23:   0%|          | 0/23 [16:28<?, ?it/s][A
+Epoch 45/61 - Progress: 19/23:   0%|          | 0/23 [16:28<?, ?it/s][A
+Epoch 45/61 - Progress: 20/23:   0%|          | 0/23 [18:46<?, ?it/s][A
+Epoch 45/61 - Progress: 21/23:   0%|          | 0/23 [18:47<?, ?it/s][A
+Epoch 45/61 - Progress: 22/23:   0%|          | 0/23 [18:47<?, ?it/s][A
+                                                                     [A
+Epoch 45/61 - Progress: 22/23:   0%|          | 0/23 [23:39<?, ?it/s][A
+                                                                     [A
+Epoch 45/61 - Progress: 22/23:   0%|          | 0/23 [23:39<?, ?it/s][AEpoch [45/61], Training Loss: 1.6717, Training accuracy: 30.5146, Eval Loss: 2.0021, Eval Accuracy: 22.0585
+ 
+Epoch 46/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 46/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 46/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 46/61 - Progress: 2/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 46/61 - Progress: 3/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 46/61 - Progress: 4/23:   0%|          | 0/23 [07:54<?, ?it/s]Epoch 46/61 - Progress: 5/23:   0%|          | 0/23 [07:54<?, ?it/s]Epoch 46/61 - Progress: 6/23:   0%|          | 0/23 [08:02<?, ?it/s]Epoch 46/61 - Progress: 7/23:   0%|          | 0/23 [08:02<?, ?it/s]Epoch 46/61 - Progress: 8/23:   0%|          | 0/23 [10:26<?, ?it/s]Epoch 46/61 - Progress: 9/23:   0%|          | 0/23 [10:26<?, ?it/s]Epoch 46/61 - Progress: 10/23:   0%|          | 0/23 [10:32<?, ?it/s]Epoch 46/61 - Progress: 11/23:   0%|          | 0/23 [10:32<?, ?it/s]Epoch 46/61 - Progress: 12/23:   0%|          | 0/23 [12:57<?, ?it/s]Epoch 46/61 - Progress: 13/23:   0%|          | 0/23 [12:57<?, ?it/s]Epoch 46/61 - Progress: 14/23:   0%|          | 0/23 [13:02<?, ?it/s]Epoch 46/61 - Progress: 15/23:   0%|          | 0/23 [13:02<?, ?it/s]Epoch 46/61 - Progress: 16/23:   0%|          | 0/23 [15:27<?, ?it/s]Epoch 46/61 - Progress: 17/23:   0%|          | 0/23 [15:27<?, ?it/s]Epoch 46/61 - Progress: 18/23:   0%|          | 0/23 [15:31<?, ?it/s]Epoch 46/61 - Progress: 19/23:   0%|          | 0/23 [15:31<?, ?it/s]Epoch 46/61 - Progress: 20/23:   0%|          | 0/23 [17:53<?, ?it/s]Epoch 46/61 - Progress: 21/23:   0%|          | 0/23 [17:53<?, ?it/s]Epoch 46/61 - Progress: 22/23:   0%|          | 0/23 [17:53<?, ?it/s]                                                                     Epoch 46/61 - Progress: 22/23:   0%|          | 0/23 [22:43<?, ?it/s]                                                                     Epoch 46/61 - Progress: 22/23:   0%|          | 0/23 [22:43<?, ?it/s]Checkpoint saved at epoch 46
+
+Epoch [46/61], Training Loss: 1.6649, Training accuracy: 30.3762, Eval Loss: 2.1430, Eval Accuracy: 20.5709
+ 
+
+Epoch 47/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 47/61 - Progress: 0/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 47/61 - Progress: 1/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 47/61 - Progress: 2/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 47/61 - Progress: 3/23:   0%|          | 0/23 [04:43<?, ?it/s][A
+Epoch 47/61 - Progress: 4/23:   0%|          | 0/23 [07:27<?, ?it/s][A
+Epoch 47/61 - Progress: 5/23:   0%|          | 0/23 [07:36<?, ?it/s][A
+Epoch 47/61 - Progress: 6/23:   0%|          | 0/23 [07:36<?, ?it/s][A
+Epoch 47/61 - Progress: 7/23:   0%|          | 0/23 [08:31<?, ?it/s][A
+Epoch 47/61 - Progress: 8/23:   0%|          | 0/23 [09:57<?, ?it/s][A
+Epoch 47/61 - Progress: 9/23:   0%|          | 0/23 [10:09<?, ?it/s][A
+Epoch 47/61 - Progress: 10/23:   0%|          | 0/23 [10:09<?, ?it/s][A
+Epoch 47/61 - Progress: 11/23:   0%|          | 0/23 [11:00<?, ?it/s][A
+Epoch 47/61 - Progress: 12/23:   0%|          | 0/23 [12:25<?, ?it/s][A
+Epoch 47/61 - Progress: 13/23:   0%|          | 0/23 [12:40<?, ?it/s][A
+Epoch 47/61 - Progress: 14/23:   0%|          | 0/23 [12:40<?, ?it/s][A
+Epoch 47/61 - Progress: 15/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 47/61 - Progress: 16/23:   0%|          | 0/23 [14:53<?, ?it/s][A
+Epoch 47/61 - Progress: 17/23:   0%|          | 0/23 [15:11<?, ?it/s][A
+Epoch 47/61 - Progress: 18/23:   0%|          | 0/23 [15:11<?, ?it/s][A
+Epoch 47/61 - Progress: 19/23:   0%|          | 0/23 [16:01<?, ?it/s][A
+Epoch 47/61 - Progress: 20/23:   0%|          | 0/23 [17:19<?, ?it/s][A
+Epoch 47/61 - Progress: 21/23:   0%|          | 0/23 [17:37<?, ?it/s][A
+Epoch 47/61 - Progress: 22/23:   0%|          | 0/23 [17:37<?, ?it/s][A
+                                                                     [A
+Epoch 47/61 - Progress: 22/23:   0%|          | 0/23 [22:29<?, ?it/s][A
+                                                                     [A
+Epoch 47/61 - Progress: 22/23:   0%|          | 0/23 [22:29<?, ?it/s][ACheckpoint saved at epoch 47
+
+Epoch [47/61], Training Loss: 1.6740, Training accuracy: 30.3079, Eval Loss: 1.9307, Eval Accuracy: 23.6139
+ 
+Epoch 48/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 48/61 - Progress: 0/23:   0%|          | 0/23 [02:36<?, ?it/s]Epoch 48/61 - Progress: 1/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 48/61 - Progress: 2/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 48/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 48/61 - Progress: 4/23:   0%|          | 0/23 [06:49<?, ?it/s]Epoch 48/61 - Progress: 5/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 48/61 - Progress: 6/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 48/61 - Progress: 7/23:   0%|          | 0/23 [08:45<?, ?it/s]Epoch 48/61 - Progress: 8/23:   0%|          | 0/23 [09:20<?, ?it/s]Epoch 48/61 - Progress: 9/23:   0%|          | 0/23 [11:13<?, ?it/s]Epoch 48/61 - Progress: 10/23:   0%|          | 0/23 [11:14<?, ?it/s]Epoch 48/61 - Progress: 11/23:   0%|          | 0/23 [11:14<?, ?it/s]Epoch 48/61 - Progress: 12/23:   0%|          | 0/23 [11:50<?, ?it/s]Epoch 48/61 - Progress: 13/23:   0%|          | 0/23 [13:43<?, ?it/s]Epoch 48/61 - Progress: 14/23:   0%|          | 0/23 [13:43<?, ?it/s]Epoch 48/61 - Progress: 15/23:   0%|          | 0/23 [13:44<?, ?it/s]Epoch 48/61 - Progress: 16/23:   0%|          | 0/23 [14:19<?, ?it/s]Epoch 48/61 - Progress: 17/23:   0%|          | 0/23 [16:12<?, ?it/s]Epoch 48/61 - Progress: 18/23:   0%|          | 0/23 [16:12<?, ?it/s]Epoch 48/61 - Progress: 19/23:   0%|          | 0/23 [16:14<?, ?it/s]Epoch 48/61 - Progress: 20/23:   0%|          | 0/23 [16:47<?, ?it/s]Epoch 48/61 - Progress: 21/23:   0%|          | 0/23 [18:29<?, ?it/s]Epoch 48/61 - Progress: 22/23:   0%|          | 0/23 [18:29<?, ?it/s]                                                                     Epoch 48/61 - Progress: 22/23:   0%|          | 0/23 [23:25<?, ?it/s]                                                                     Epoch 48/61 - Progress: 22/23:   0%|          | 0/23 [23:25<?, ?it/s]Checkpoint saved at epoch 48
+
+Epoch [48/61], Training Loss: 1.6645, Training accuracy: 30.6722, Eval Loss: 2.1028, Eval Accuracy: 21.0221
+ 
+
+Epoch 49/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 49/61 - Progress: 0/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 49/61 - Progress: 1/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 49/61 - Progress: 2/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 49/61 - Progress: 3/23:   0%|          | 0/23 [04:41<?, ?it/s][A
+Epoch 49/61 - Progress: 4/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 49/61 - Progress: 5/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 49/61 - Progress: 6/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 49/61 - Progress: 7/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 49/61 - Progress: 8/23:   0%|          | 0/23 [11:03<?, ?it/s][A
+Epoch 49/61 - Progress: 9/23:   0%|          | 0/23 [11:03<?, ?it/s][A
+Epoch 49/61 - Progress: 10/23:   0%|          | 0/23 [11:03<?, ?it/s][A
+Epoch 49/61 - Progress: 11/23:   0%|          | 0/23 [11:03<?, ?it/s][A
+Epoch 49/61 - Progress: 12/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 49/61 - Progress: 13/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 49/61 - Progress: 14/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 49/61 - Progress: 15/23:   0%|          | 0/23 [13:31<?, ?it/s][A
+Epoch 49/61 - Progress: 16/23:   0%|          | 0/23 [15:58<?, ?it/s][A
+Epoch 49/61 - Progress: 17/23:   0%|          | 0/23 [15:58<?, ?it/s][A
+Epoch 49/61 - Progress: 18/23:   0%|          | 0/23 [15:58<?, ?it/s][A
+Epoch 49/61 - Progress: 19/23:   0%|          | 0/23 [15:58<?, ?it/s][A
+Epoch 49/61 - Progress: 20/23:   0%|          | 0/23 [18:18<?, ?it/s][A
+Epoch 49/61 - Progress: 21/23:   0%|          | 0/23 [18:18<?, ?it/s][A
+Epoch 49/61 - Progress: 22/23:   0%|          | 0/23 [18:18<?, ?it/s][A
+                                                                     [A
+Epoch 49/61 - Progress: 22/23:   0%|          | 0/23 [23:12<?, ?it/s][A
+                                                                     [A
+Epoch 49/61 - Progress: 22/23:   0%|          | 0/23 [23:12<?, ?it/s][ACheckpoint saved at epoch 49
+
+Epoch [49/61], Training Loss: 1.6627, Training accuracy: 30.5592, Eval Loss: 2.0173, Eval Accuracy: 22.3172
+ 
+Epoch 50/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 50/61 - Progress: 0/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 50/61 - Progress: 1/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 50/61 - Progress: 2/23:   0%|          | 0/23 [04:44<?, ?it/s]Epoch 50/61 - Progress: 3/23:   0%|          | 0/23 [04:45<?, ?it/s]Epoch 50/61 - Progress: 4/23:   0%|          | 0/23 [07:41<?, ?it/s]Epoch 50/61 - Progress: 5/23:   0%|          | 0/23 [07:41<?, ?it/s]Epoch 50/61 - Progress: 6/23:   0%|          | 0/23 [07:44<?, ?it/s]Epoch 50/61 - Progress: 7/23:   0%|          | 0/23 [07:44<?, ?it/s]Epoch 50/61 - Progress: 8/23:   0%|          | 0/23 [10:14<?, ?it/s]Epoch 50/61 - Progress: 9/23:   0%|          | 0/23 [10:14<?, ?it/s]Epoch 50/61 - Progress: 10/23:   0%|          | 0/23 [10:16<?, ?it/s]Epoch 50/61 - Progress: 11/23:   0%|          | 0/23 [10:16<?, ?it/s]Epoch 50/61 - Progress: 12/23:   0%|          | 0/23 [12:44<?, ?it/s]Epoch 50/61 - Progress: 13/23:   0%|          | 0/23 [12:44<?, ?it/s]Epoch 50/61 - Progress: 14/23:   0%|          | 0/23 [12:46<?, ?it/s]Epoch 50/61 - Progress: 15/23:   0%|          | 0/23 [12:46<?, ?it/s]Epoch 50/61 - Progress: 16/23:   0%|          | 0/23 [15:16<?, ?it/s]Epoch 50/61 - Progress: 17/23:   0%|          | 0/23 [15:16<?, ?it/s]Epoch 50/61 - Progress: 18/23:   0%|          | 0/23 [15:16<?, ?it/s]Epoch 50/61 - Progress: 19/23:   0%|          | 0/23 [15:16<?, ?it/s]Epoch 50/61 - Progress: 20/23:   0%|          | 0/23 [17:43<?, ?it/s]Epoch 50/61 - Progress: 21/23:   0%|          | 0/23 [17:43<?, ?it/s]Epoch 50/61 - Progress: 22/23:   0%|          | 0/23 [17:43<?, ?it/s]                                                                     Epoch 50/61 - Progress: 22/23:   0%|          | 0/23 [22:37<?, ?it/s]                                                                     Epoch 50/61 - Progress: 22/23:   0%|          | 0/23 [22:37<?, ?it/s]Checkpoint saved at epoch 50
+
+Epoch [50/61], Training Loss: 1.6553, Training accuracy: 30.5531, Eval Loss: 2.0277, Eval Accuracy: 21.5413
+ 
+
+Epoch 51/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 51/61 - Progress: 0/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 51/61 - Progress: 1/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 51/61 - Progress: 2/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 51/61 - Progress: 3/23:   0%|          | 0/23 [04:47<?, ?it/s][A
+Epoch 51/61 - Progress: 4/23:   0%|          | 0/23 [08:04<?, ?it/s][A
+Epoch 51/61 - Progress: 5/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 51/61 - Progress: 6/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 51/61 - Progress: 7/23:   0%|          | 0/23 [08:36<?, ?it/s][A
+Epoch 51/61 - Progress: 8/23:   0%|          | 0/23 [10:36<?, ?it/s][A
+Epoch 51/61 - Progress: 9/23:   0%|          | 0/23 [11:05<?, ?it/s][A
+Epoch 51/61 - Progress: 10/23:   0%|          | 0/23 [11:05<?, ?it/s][A
+Epoch 51/61 - Progress: 11/23:   0%|          | 0/23 [11:05<?, ?it/s][A
+Epoch 51/61 - Progress: 12/23:   0%|          | 0/23 [13:18<?, ?it/s][A
+Epoch 51/61 - Progress: 13/23:   0%|          | 0/23 [13:44<?, ?it/s][A
+Epoch 51/61 - Progress: 14/23:   0%|          | 0/23 [13:45<?, ?it/s][A
+Epoch 51/61 - Progress: 15/23:   0%|          | 0/23 [13:45<?, ?it/s][A
+Epoch 51/61 - Progress: 16/23:   0%|          | 0/23 [16:04<?, ?it/s][A
+Epoch 51/61 - Progress: 17/23:   0%|          | 0/23 [16:29<?, ?it/s][A
+Epoch 51/61 - Progress: 18/23:   0%|          | 0/23 [16:29<?, ?it/s][A
+Epoch 51/61 - Progress: 19/23:   0%|          | 0/23 [16:29<?, ?it/s][A
+Epoch 51/61 - Progress: 20/23:   0%|          | 0/23 [18:42<?, ?it/s][A
+Epoch 51/61 - Progress: 21/23:   0%|          | 0/23 [19:05<?, ?it/s][A
+Epoch 51/61 - Progress: 22/23:   0%|          | 0/23 [19:05<?, ?it/s][A
+                                                                     [A
+Epoch 51/61 - Progress: 22/23:   0%|          | 0/23 [24:26<?, ?it/s][A
+                                                                     [A
+Epoch 51/61 - Progress: 22/23:   0%|          | 0/23 [24:26<?, ?it/s][AEpoch [51/61], Training Loss: 1.6581, Training accuracy: 30.7670, Eval Loss: 2.0918, Eval Accuracy: 21.2263
+ 
+Epoch 52/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 52/61 - Progress: 0/23:   0%|          | 0/23 [04:47<?, ?it/s]Epoch 52/61 - Progress: 1/23:   0%|          | 0/23 [04:48<?, ?it/s]Epoch 52/61 - Progress: 2/23:   0%|          | 0/23 [04:48<?, ?it/s]Epoch 52/61 - Progress: 3/23:   0%|          | 0/23 [04:48<?, ?it/s]Epoch 52/61 - Progress: 4/23:   0%|          | 0/23 [09:05<?, ?it/s]Epoch 52/61 - Progress: 5/23:   0%|          | 0/23 [09:05<?, ?it/s]Epoch 52/61 - Progress: 6/23:   0%|          | 0/23 [09:17<?, ?it/s]Epoch 52/61 - Progress: 7/23:   0%|          | 0/23 [09:17<?, ?it/s]Epoch 52/61 - Progress: 8/23:   0%|          | 0/23 [12:00<?, ?it/s]Epoch 52/61 - Progress: 9/23:   0%|          | 0/23 [12:00<?, ?it/s]Epoch 52/61 - Progress: 10/23:   0%|          | 0/23 [12:03<?, ?it/s]Epoch 52/61 - Progress: 11/23:   0%|          | 0/23 [12:03<?, ?it/s]Epoch 52/61 - Progress: 12/23:   0%|          | 0/23 [14:48<?, ?it/s]Epoch 52/61 - Progress: 13/23:   0%|          | 0/23 [14:48<?, ?it/s]Epoch 52/61 - Progress: 14/23:   0%|          | 0/23 [14:49<?, ?it/s]Epoch 52/61 - Progress: 15/23:   0%|          | 0/23 [14:49<?, ?it/s]Epoch 52/61 - Progress: 16/23:   0%|          | 0/23 [17:34<?, ?it/s]Epoch 52/61 - Progress: 17/23:   0%|          | 0/23 [17:34<?, ?it/s]Epoch 52/61 - Progress: 18/23:   0%|          | 0/23 [17:36<?, ?it/s]Epoch 52/61 - Progress: 19/23:   0%|          | 0/23 [17:36<?, ?it/s]Epoch 52/61 - Progress: 20/23:   0%|          | 0/23 [20:17<?, ?it/s]Epoch 52/61 - Progress: 21/23:   0%|          | 0/23 [20:17<?, ?it/s]Epoch 52/61 - Progress: 22/23:   0%|          | 0/23 [20:17<?, ?it/s]                                                                     Epoch 52/61 - Progress: 22/23:   0%|          | 0/23 [25:42<?, ?it/s]                                                                     Epoch 52/61 - Progress: 22/23:   0%|          | 0/23 [25:42<?, ?it/s]Epoch [52/61], Training Loss: 1.6603, Training accuracy: 30.6467, Eval Loss: 2.2251, Eval Accuracy: 19.4822
+ 
+
+Epoch 53/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 53/61 - Progress: 0/23:   0%|          | 0/23 [04:23<?, ?it/s][A
+Epoch 53/61 - Progress: 1/23:   0%|          | 0/23 [04:24<?, ?it/s][A
+Epoch 53/61 - Progress: 2/23:   0%|          | 0/23 [04:27<?, ?it/s][A
+Epoch 53/61 - Progress: 3/23:   0%|          | 0/23 [04:27<?, ?it/s][A
+Epoch 53/61 - Progress: 4/23:   0%|          | 0/23 [08:48<?, ?it/s][A
+Epoch 53/61 - Progress: 5/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 53/61 - Progress: 6/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 53/61 - Progress: 7/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 53/61 - Progress: 8/23:   0%|          | 0/23 [11:39<?, ?it/s][A
+Epoch 53/61 - Progress: 9/23:   0%|          | 0/23 [11:43<?, ?it/s][A
+Epoch 53/61 - Progress: 10/23:   0%|          | 0/23 [11:43<?, ?it/s][A
+Epoch 53/61 - Progress: 11/23:   0%|          | 0/23 [11:43<?, ?it/s][A
+Epoch 53/61 - Progress: 12/23:   0%|          | 0/23 [14:30<?, ?it/s][A
+Epoch 53/61 - Progress: 13/23:   0%|          | 0/23 [14:34<?, ?it/s][A
+Epoch 53/61 - Progress: 14/23:   0%|          | 0/23 [14:34<?, ?it/s][A
+Epoch 53/61 - Progress: 15/23:   0%|          | 0/23 [14:34<?, ?it/s][A
+Epoch 53/61 - Progress: 16/23:   0%|          | 0/23 [17:22<?, ?it/s][A
+Epoch 53/61 - Progress: 17/23:   0%|          | 0/23 [17:24<?, ?it/s][A
+Epoch 53/61 - Progress: 18/23:   0%|          | 0/23 [17:24<?, ?it/s][A
+Epoch 53/61 - Progress: 19/23:   0%|          | 0/23 [17:24<?, ?it/s][A
+Epoch 53/61 - Progress: 20/23:   0%|          | 0/23 [20:12<?, ?it/s][A
+Epoch 53/61 - Progress: 21/23:   0%|          | 0/23 [20:12<?, ?it/s][A
+Epoch 53/61 - Progress: 22/23:   0%|          | 0/23 [20:12<?, ?it/s][A
+                                                                     [A
+Epoch 53/61 - Progress: 22/23:   0%|          | 0/23 [25:40<?, ?it/s][A
+                                                                     [A
+Epoch 53/61 - Progress: 22/23:   0%|          | 0/23 [25:40<?, ?it/s][ACheckpoint saved at epoch 53
+
+Epoch [53/61], Training Loss: 1.6621, Training accuracy: 30.8300, Eval Loss: 2.1501, Eval Accuracy: 20.0029
+ 
+Epoch 54/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 54/61 - Progress: 0/23:   0%|          | 0/23 [04:27<?, ?it/s]Epoch 54/61 - Progress: 1/23:   0%|          | 0/23 [04:28<?, ?it/s]Epoch 54/61 - Progress: 2/23:   0%|          | 0/23 [04:28<?, ?it/s]Epoch 54/61 - Progress: 3/23:   0%|          | 0/23 [04:28<?, ?it/s]Epoch 54/61 - Progress: 4/23:   0%|          | 0/23 [08:44<?, ?it/s]Epoch 54/61 - Progress: 5/23:   0%|          | 0/23 [08:50<?, ?it/s]Epoch 54/61 - Progress: 6/23:   0%|          | 0/23 [08:50<?, ?it/s]Epoch 54/61 - Progress: 7/23:   0%|          | 0/23 [08:51<?, ?it/s]Epoch 54/61 - Progress: 8/23:   0%|          | 0/23 [11:36<?, ?it/s]Epoch 54/61 - Progress: 9/23:   0%|          | 0/23 [11:42<?, ?it/s]Epoch 54/61 - Progress: 10/23:   0%|          | 0/23 [11:42<?, ?it/s]Epoch 54/61 - Progress: 11/23:   0%|          | 0/23 [11:43<?, ?it/s]Epoch 54/61 - Progress: 12/23:   0%|          | 0/23 [14:28<?, ?it/s]Epoch 54/61 - Progress: 13/23:   0%|          | 0/23 [14:36<?, ?it/s]Epoch 54/61 - Progress: 14/23:   0%|          | 0/23 [14:36<?, ?it/s]Epoch 54/61 - Progress: 15/23:   0%|          | 0/23 [14:37<?, ?it/s]Epoch 54/61 - Progress: 16/23:   0%|          | 0/23 [17:24<?, ?it/s]Epoch 54/61 - Progress: 17/23:   0%|          | 0/23 [17:30<?, ?it/s]Epoch 54/61 - Progress: 18/23:   0%|          | 0/23 [17:30<?, ?it/s]Epoch 54/61 - Progress: 19/23:   0%|          | 0/23 [17:33<?, ?it/s]Epoch 54/61 - Progress: 20/23:   0%|          | 0/23 [20:13<?, ?it/s]Epoch 54/61 - Progress: 21/23:   0%|          | 0/23 [20:18<?, ?it/s]Epoch 54/61 - Progress: 22/23:   0%|          | 0/23 [20:18<?, ?it/s]                                                                     Epoch 54/61 - Progress: 22/23:   0%|          | 0/23 [25:47<?, ?it/s]                                                                     Epoch 54/61 - Progress: 22/23:   0%|          | 0/23 [25:47<?, ?it/s]Epoch [54/61], Training Loss: 1.6606, Training accuracy: 31.0901, Eval Loss: 2.0867, Eval Accuracy: 21.4829
+ 
+
+Epoch 55/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 55/61 - Progress: 0/23:   0%|          | 0/23 [04:31<?, ?it/s][A
+Epoch 55/61 - Progress: 1/23:   0%|          | 0/23 [04:32<?, ?it/s][A
+Epoch 55/61 - Progress: 2/23:   0%|          | 0/23 [04:32<?, ?it/s][A
+Epoch 55/61 - Progress: 3/23:   0%|          | 0/23 [04:32<?, ?it/s][A
+Epoch 55/61 - Progress: 4/23:   0%|          | 0/23 [08:48<?, ?it/s][A
+Epoch 55/61 - Progress: 5/23:   0%|          | 0/23 [08:48<?, ?it/s][A
+Epoch 55/61 - Progress: 6/23:   0%|          | 0/23 [08:51<?, ?it/s][A
+Epoch 55/61 - Progress: 7/23:   0%|          | 0/23 [08:51<?, ?it/s][A
+Epoch 55/61 - Progress: 8/23:   0%|          | 0/23 [11:40<?, ?it/s][A
+Epoch 55/61 - Progress: 9/23:   0%|          | 0/23 [11:40<?, ?it/s][A
+Epoch 55/61 - Progress: 10/23:   0%|          | 0/23 [11:47<?, ?it/s][A
+Epoch 55/61 - Progress: 11/23:   0%|          | 0/23 [11:47<?, ?it/s][A
+Epoch 55/61 - Progress: 12/23:   0%|          | 0/23 [14:34<?, ?it/s][A
+Epoch 55/61 - Progress: 13/23:   0%|          | 0/23 [14:34<?, ?it/s][A
+Epoch 55/61 - Progress: 14/23:   0%|          | 0/23 [14:46<?, ?it/s][A
+Epoch 55/61 - Progress: 15/23:   0%|          | 0/23 [14:46<?, ?it/s][A
+Epoch 55/61 - Progress: 16/23:   0%|          | 0/23 [17:30<?, ?it/s][A
+Epoch 55/61 - Progress: 17/23:   0%|          | 0/23 [17:32<?, ?it/s][A
+Epoch 55/61 - Progress: 18/23:   0%|          | 0/23 [17:45<?, ?it/s][A
+Epoch 55/61 - Progress: 19/23:   0%|          | 0/23 [17:45<?, ?it/s][A
+Epoch 55/61 - Progress: 20/23:   0%|          | 0/23 [20:24<?, ?it/s][A
+Epoch 55/61 - Progress: 21/23:   0%|          | 0/23 [20:27<?, ?it/s][A
+Epoch 55/61 - Progress: 22/23:   0%|          | 0/23 [20:32<?, ?it/s][A
+                                                                     [A
+Epoch 55/61 - Progress: 22/23:   0%|          | 0/23 [26:02<?, ?it/s][A
+                                                                     [A
+Epoch 55/61 - Progress: 22/23:   0%|          | 0/23 [26:02<?, ?it/s][AEpoch [55/61], Training Loss: 1.6589, Training accuracy: 30.9218, Eval Loss: 2.0344, Eval Accuracy: 21.7083
+ 
+Epoch 56/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 56/61 - Progress: 0/23:   0%|          | 0/23 [04:28<?, ?it/s]Epoch 56/61 - Progress: 1/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 56/61 - Progress: 2/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 56/61 - Progress: 3/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 56/61 - Progress: 4/23:   0%|          | 0/23 [08:47<?, ?it/s]Epoch 56/61 - Progress: 5/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 56/61 - Progress: 6/23:   0%|          | 0/23 [08:56<?, ?it/s]Epoch 56/61 - Progress: 7/23:   0%|          | 0/23 [08:56<?, ?it/s]Epoch 56/61 - Progress: 8/23:   0%|          | 0/23 [11:44<?, ?it/s]Epoch 56/61 - Progress: 9/23:   0%|          | 0/23 [11:50<?, ?it/s]Epoch 56/61 - Progress: 10/23:   0%|          | 0/23 [11:51<?, ?it/s]Epoch 56/61 - Progress: 11/23:   0%|          | 0/23 [11:51<?, ?it/s]Epoch 56/61 - Progress: 12/23:   0%|          | 0/23 [14:42<?, ?it/s]Epoch 56/61 - Progress: 13/23:   0%|          | 0/23 [14:49<?, ?it/s]Epoch 56/61 - Progress: 14/23:   0%|          | 0/23 [14:49<?, ?it/s]Epoch 56/61 - Progress: 15/23:   0%|          | 0/23 [14:49<?, ?it/s]Epoch 56/61 - Progress: 16/23:   0%|          | 0/23 [17:43<?, ?it/s]Epoch 56/61 - Progress: 17/23:   0%|          | 0/23 [17:51<?, ?it/s]Epoch 56/61 - Progress: 18/23:   0%|          | 0/23 [17:52<?, ?it/s]Epoch 56/61 - Progress: 19/23:   0%|          | 0/23 [17:52<?, ?it/s]Epoch 56/61 - Progress: 20/23:   0%|          | 0/23 [20:37<?, ?it/s]Epoch 56/61 - Progress: 21/23:   0%|          | 0/23 [20:46<?, ?it/s]Epoch 56/61 - Progress: 22/23:   0%|          | 0/23 [20:46<?, ?it/s]                                                                     Epoch 56/61 - Progress: 22/23:   0%|          | 0/23 [26:17<?, ?it/s]                                                                     Epoch 56/61 - Progress: 22/23:   0%|          | 0/23 [26:17<?, ?it/s]Epoch [56/61], Training Loss: 1.6705, Training accuracy: 31.0737, Eval Loss: 2.0277, Eval Accuracy: 22.1986
+ 
+
+Epoch 57/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 57/61 - Progress: 0/23:   0%|          | 0/23 [04:33<?, ?it/s][A
+Epoch 57/61 - Progress: 1/23:   0%|          | 0/23 [04:33<?, ?it/s][A
+Epoch 57/61 - Progress: 2/23:   0%|          | 0/23 [04:33<?, ?it/s][A
+Epoch 57/61 - Progress: 3/23:   0%|          | 0/23 [04:33<?, ?it/s][A
+Epoch 57/61 - Progress: 4/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 57/61 - Progress: 5/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 57/61 - Progress: 6/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 57/61 - Progress: 7/23:   0%|          | 0/23 [08:55<?, ?it/s][A
+Epoch 57/61 - Progress: 8/23:   0%|          | 0/23 [11:51<?, ?it/s][A
+Epoch 57/61 - Progress: 9/23:   0%|          | 0/23 [11:52<?, ?it/s][A
+Epoch 57/61 - Progress: 10/23:   0%|          | 0/23 [11:52<?, ?it/s][A
+Epoch 57/61 - Progress: 11/23:   0%|          | 0/23 [11:52<?, ?it/s][A
+Epoch 57/61 - Progress: 12/23:   0%|          | 0/23 [14:51<?, ?it/s][A
+Epoch 57/61 - Progress: 13/23:   0%|          | 0/23 [14:52<?, ?it/s][A
+Epoch 57/61 - Progress: 14/23:   0%|          | 0/23 [14:52<?, ?it/s][A
+Epoch 57/61 - Progress: 15/23:   0%|          | 0/23 [14:52<?, ?it/s][A
+Epoch 57/61 - Progress: 16/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 57/61 - Progress: 17/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 57/61 - Progress: 18/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 57/61 - Progress: 19/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 57/61 - Progress: 20/23:   0%|          | 0/23 [20:46<?, ?it/s][A
+Epoch 57/61 - Progress: 21/23:   0%|          | 0/23 [20:46<?, ?it/s][A
+Epoch 57/61 - Progress: 22/23:   0%|          | 0/23 [20:46<?, ?it/s][A
+                                                                     [A
+Epoch 57/61 - Progress: 22/23:   0%|          | 0/23 [26:20<?, ?it/s][A
+                                                                     [A
+Epoch 57/61 - Progress: 22/23:   0%|          | 0/23 [26:20<?, ?it/s][ACheckpoint saved at epoch 57
+
+Epoch [57/61], Training Loss: 1.6446, Training accuracy: 31.2098, Eval Loss: 2.0532, Eval Accuracy: 21.9025
+ 
+Epoch 58/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 58/61 - Progress: 0/23:   0%|          | 0/23 [04:29<?, ?it/s]Epoch 58/61 - Progress: 1/23:   0%|          | 0/23 [04:29<?, ?it/s]Epoch 58/61 - Progress: 2/23:   0%|          | 0/23 [04:29<?, ?it/s]Epoch 58/61 - Progress: 3/23:   0%|          | 0/23 [04:29<?, ?it/s]Epoch 58/61 - Progress: 4/23:   0%|          | 0/23 [08:49<?, ?it/s]Epoch 58/61 - Progress: 5/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 58/61 - Progress: 6/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 58/61 - Progress: 7/23:   0%|          | 0/23 [08:55<?, ?it/s]Epoch 58/61 - Progress: 8/23:   0%|          | 0/23 [11:48<?, ?it/s]Epoch 58/61 - Progress: 9/23:   0%|          | 0/23 [11:52<?, ?it/s]Epoch 58/61 - Progress: 10/23:   0%|          | 0/23 [11:52<?, ?it/s]Epoch 58/61 - Progress: 11/23:   0%|          | 0/23 [11:53<?, ?it/s]Epoch 58/61 - Progress: 12/23:   0%|          | 0/23 [14:48<?, ?it/s]Epoch 58/61 - Progress: 13/23:   0%|          | 0/23 [14:52<?, ?it/s]Epoch 58/61 - Progress: 14/23:   0%|          | 0/23 [14:52<?, ?it/s]Epoch 58/61 - Progress: 15/23:   0%|          | 0/23 [14:54<?, ?it/s]Epoch 58/61 - Progress: 16/23:   0%|          | 0/23 [17:48<?, ?it/s]Epoch 58/61 - Progress: 17/23:   0%|          | 0/23 [17:52<?, ?it/s]Epoch 58/61 - Progress: 18/23:   0%|          | 0/23 [17:52<?, ?it/s]Epoch 58/61 - Progress: 19/23:   0%|          | 0/23 [17:55<?, ?it/s]Epoch 58/61 - Progress: 20/23:   0%|          | 0/23 [20:42<?, ?it/s]Epoch 58/61 - Progress: 21/23:   0%|          | 0/23 [20:45<?, ?it/s]Epoch 58/61 - Progress: 22/23:   0%|          | 0/23 [20:45<?, ?it/s]                                                                     Epoch 58/61 - Progress: 22/23:   0%|          | 0/23 [26:18<?, ?it/s]                                                                     Epoch 58/61 - Progress: 22/23:   0%|          | 0/23 [26:18<?, ?it/s]Epoch [58/61], Training Loss: 1.6569, Training accuracy: 31.2403, Eval Loss: 2.0638, Eval Accuracy: 22.0002
+ 
+
+Epoch 59/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 59/61 - Progress: 0/23:   0%|          | 0/23 [04:27<?, ?it/s][A
+Epoch 59/61 - Progress: 1/23:   0%|          | 0/23 [04:29<?, ?it/s][A
+Epoch 59/61 - Progress: 2/23:   0%|          | 0/23 [04:29<?, ?it/s][A
+Epoch 59/61 - Progress: 3/23:   0%|          | 0/23 [04:31<?, ?it/s][A
+Epoch 59/61 - Progress: 4/23:   0%|          | 0/23 [08:54<?, ?it/s][A
+Epoch 59/61 - Progress: 5/23:   0%|          | 0/23 [08:54<?, ?it/s][A
+Epoch 59/61 - Progress: 6/23:   0%|          | 0/23 [08:54<?, ?it/s][A
+Epoch 59/61 - Progress: 7/23:   0%|          | 0/23 [08:56<?, ?it/s][A
+Epoch 59/61 - Progress: 8/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 59/61 - Progress: 9/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 59/61 - Progress: 10/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 59/61 - Progress: 11/23:   0%|          | 0/23 [11:57<?, ?it/s][A
+Epoch 59/61 - Progress: 12/23:   0%|          | 0/23 [14:57<?, ?it/s][A
+Epoch 59/61 - Progress: 13/23:   0%|          | 0/23 [14:57<?, ?it/s][A
+Epoch 59/61 - Progress: 14/23:   0%|          | 0/23 [14:57<?, ?it/s][A
+Epoch 59/61 - Progress: 15/23:   0%|          | 0/23 [15:00<?, ?it/s][A
+Epoch 59/61 - Progress: 16/23:   0%|          | 0/23 [17:59<?, ?it/s][A
+Epoch 59/61 - Progress: 17/23:   0%|          | 0/23 [17:59<?, ?it/s][A
+Epoch 59/61 - Progress: 18/23:   0%|          | 0/23 [17:59<?, ?it/s][A
+Epoch 59/61 - Progress: 19/23:   0%|          | 0/23 [18:02<?, ?it/s][A
+Epoch 59/61 - Progress: 20/23:   0%|          | 0/23 [20:55<?, ?it/s][A
+Epoch 59/61 - Progress: 21/23:   0%|          | 0/23 [20:55<?, ?it/s][A
+Epoch 59/61 - Progress: 22/23:   0%|          | 0/23 [20:55<?, ?it/s][A
+                                                                     [A
+Epoch 59/61 - Progress: 22/23:   0%|          | 0/23 [26:31<?, ?it/s][A
+                                                                     [A
+Epoch 59/61 - Progress: 22/23:   0%|          | 0/23 [26:31<?, ?it/s][ACheckpoint saved at epoch 59
+
+Epoch [59/61], Training Loss: 1.6540, Training accuracy: 31.3339, Eval Loss: 2.2957, Eval Accuracy: 19.4064
+ 
+Epoch 60/61:   0%|          | 0/23 [00:00<?, ?it/s]
+                                                                     [AEpoch 60/61 - Progress: 0/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 60/61 - Progress: 1/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 60/61 - Progress: 2/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 60/61 - Progress: 3/23:   0%|          | 0/23 [04:33<?, ?it/s]Epoch 60/61 - Progress: 4/23:   0%|          | 0/23 [08:58<?, ?it/s]Epoch 60/61 - Progress: 5/23:   0%|          | 0/23 [08:58<?, ?it/s]Epoch 60/61 - Progress: 6/23:   0%|          | 0/23 [08:59<?, ?it/s]Epoch 60/61 - Progress: 7/23:   0%|          | 0/23 [08:59<?, ?it/s]Epoch 60/61 - Progress: 8/23:   0%|          | 0/23 [11:57<?, ?it/s]Epoch 60/61 - Progress: 9/23:   0%|          | 0/23 [12:00<?, ?it/s]Epoch 60/61 - Progress: 10/23:   0%|          | 0/23 [12:00<?, ?it/s]Epoch 60/61 - Progress: 11/23:   0%|          | 0/23 [12:00<?, ?it/s]Epoch 60/61 - Progress: 12/23:   0%|          | 0/23 [14:56<?, ?it/s]Epoch 60/61 - Progress: 13/23:   0%|          | 0/23 [15:00<?, ?it/s]Epoch 60/61 - Progress: 14/23:   0%|          | 0/23 [15:00<?, ?it/s]Epoch 60/61 - Progress: 15/23:   0%|          | 0/23 [15:00<?, ?it/s]Epoch 60/61 - Progress: 16/23:   0%|          | 0/23 [17:54<?, ?it/s]Epoch 60/61 - Progress: 17/23:   0%|          | 0/23 [18:00<?, ?it/s]Epoch 60/61 - Progress: 18/23:   0%|          | 0/23 [18:00<?, ?it/s]Epoch 60/61 - Progress: 19/23:   0%|          | 0/23 [18:00<?, ?it/s]Epoch 60/61 - Progress: 20/23:   0%|          | 0/23 [20:47<?, ?it/s]Epoch 60/61 - Progress: 21/23:   0%|          | 0/23 [20:54<?, ?it/s]Epoch 60/61 - Progress: 22/23:   0%|          | 0/23 [20:54<?, ?it/s]                                                                     Epoch 60/61 - Progress: 22/23:   0%|          | 0/23 [26:27<?, ?it/s]                                                                     Epoch 60/61 - Progress: 22/23:   0%|          | 0/23 [26:27<?, ?it/s]Epoch [60/61], Training Loss: 1.6457, Training accuracy: 31.3894, Eval Loss: 1.9703, Eval Accuracy: 23.6521
+ 
+
+Epoch 61/61:   0%|          | 0/23 [00:00<?, ?it/s][A                                                                     
+Epoch 61/61 - Progress: 0/23:   0%|          | 0/23 [04:30<?, ?it/s][A
+Epoch 61/61 - Progress: 1/23:   0%|          | 0/23 [04:30<?, ?it/s][A
+Epoch 61/61 - Progress: 2/23:   0%|          | 0/23 [04:30<?, ?it/s][A
+Epoch 61/61 - Progress: 3/23:   0%|          | 0/23 [04:31<?, ?it/s][A
+Epoch 61/61 - Progress: 4/23:   0%|          | 0/23 [08:56<?, ?it/s][A
+Epoch 61/61 - Progress: 5/23:   0%|          | 0/23 [08:57<?, ?it/s][A
+Epoch 61/61 - Progress: 6/23:   0%|          | 0/23 [08:57<?, ?it/s][A
+Epoch 61/61 - Progress: 7/23:   0%|          | 0/23 [08:57<?, ?it/s][A
+Epoch 61/61 - Progress: 8/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 61/61 - Progress: 9/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 61/61 - Progress: 10/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 61/61 - Progress: 11/23:   0%|          | 0/23 [11:54<?, ?it/s][A
+Epoch 61/61 - Progress: 12/23:   0%|          | 0/23 [14:53<?, ?it/s][A
+Epoch 61/61 - Progress: 13/23:   0%|          | 0/23 [14:53<?, ?it/s][A
+Epoch 61/61 - Progress: 14/23:   0%|          | 0/23 [14:53<?, ?it/s][A
+Epoch 61/61 - Progress: 15/23:   0%|          | 0/23 [14:53<?, ?it/s][A
+Epoch 61/61 - Progress: 16/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 61/61 - Progress: 17/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 61/61 - Progress: 18/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 61/61 - Progress: 19/23:   0%|          | 0/23 [17:52<?, ?it/s][A
+Epoch 61/61 - Progress: 20/23:   0%|          | 0/23 [20:45<?, ?it/s][A
+Epoch 61/61 - Progress: 21/23:   0%|          | 0/23 [20:45<?, ?it/s][A
+Epoch 61/61 - Progress: 22/23:   0%|          | 0/23 [20:45<?, ?it/s][A
+                                                                     [A
+Epoch 61/61 - Progress: 22/23:   0%|          | 0/23 [26:22<?, ?it/s][A
+                                                                     [A
+Epoch 61/61 - Progress: 22/23:   0%|          | 0/23 [26:22<?, ?it/s][AEpoch [61/61], Training Loss: 1.6544, Training accuracy: 31.4736, Eval Loss: 2.0037, Eval Accuracy: 22.8757
+ 
+
+                                                                     [A
