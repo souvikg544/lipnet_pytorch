@@ -13,45 +13,51 @@ import copy
 import json
 import random
 import editdistance
+import glob
 
     
 class MyDataset(Dataset):
     letters = [' ', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-    def __init__(self, video_path, anno_path, file_list, vid_pad, txt_pad, phase):
+    def __init__(self, video_path, anno_path,vid_pad, txt_pad):
         self.anno_path = anno_path
         self.vid_pad = vid_pad
         self.txt_pad = txt_pad
-        self.phase = phase
         
-        with open(file_list, 'r') as f:
-            self.videos = [os.path.join(video_path, line.strip()) for line in f.readlines()]
+        self.videos=glob.glob(os.path.join(video_path,"**/*"), 
+                   recursive = False)
             
         self.data = []
         for vid in self.videos:
             items = vid.split(os.path.sep)            
-            self.data.append((vid, items[-4], items[-1]))
-        
+            self.data.append((vid, items[-2], items[-1]))
+            
+        # file_name_landmark = 'landmark_index_lip.pkl'
+        # with open(file_name_landmark, 'rb') as file:
+        #     self.coordinates = pickle.load(file)
                 
     def __getitem__(self, idx):
         (vid, spk, name) = self.data[idx]
+        #vid = self._load_vid(vid)
         vid = self._load_vid(vid)
-        anno = self._load_anno(os.path.join(self.anno_path, spk, 'align', name + '.align'))
+        anno = self._load_anno(os.path.join(self.anno_path, spk, name + '.align'))
 
-        if(self.phase == 'train'):
-            vid = HorizontalFlip(vid)
+        # if(self.phase == 'train'):
+        #     vid = HorizontalFlip(vid)
           
         vid = ColorNormalize(vid)                   
         
         vid_len = vid.shape[0]
         anno_len = anno.shape[0]
-        vid = self._padding(vid, self.vid_pad)
+        #vid = self._padding(vid, self.vid_pad)
         anno = self._padding(anno, self.txt_pad)
         
-        return {'vid': torch.FloatTensor(vid.transpose(3, 0, 1, 2)), 
+        return {
+            'vid': torch.FloatTensor(vid.transpose(3, 0, 1, 2)), 
             'txt': torch.LongTensor(anno),
             'txt_len': anno_len,
-            'vid_len': vid_len}
+            'vid_len': vid_len
+        }
             
     def __len__(self):
         return len(self.data)
